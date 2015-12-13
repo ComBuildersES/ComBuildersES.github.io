@@ -3,11 +3,11 @@
 En esta sección se recopilará todas las sugerencias sobre grupos de trabajo para organización de equipos en función de las propuestas que se generen
 
 
-* Web Común
+* **Web Común**: crear la web de la ["metacomunidad"](comunidades-tecnologicas.github.io)
   * Equipo: [ntkog](http://github.com/ntkog), [hhkaos](http://github.com/hhkaos)
-* Calendario común de Eventos<br>
+* **Calendario común de Eventos**:
   * Equipo: [ntkog](http://github.com/ntkog)
-* Documentación para organizadores (Comunicación , Asociación , Espacios para eventos...)
+* **Documentación para organizadores**: reunir guías de otras comunidades sobre "buenas prácticas" y otros materiales útiles para organizadores, etc. (Guías de comunicación , asociación , espacios para eventos...)
 
 ## Cómo Editar/Participar
 
