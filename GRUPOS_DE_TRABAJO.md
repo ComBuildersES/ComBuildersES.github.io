@@ -3,11 +3,11 @@
 En esta sección se recopilará todas las sugerencias sobre grupos de trabajo para organización de equipos en función de las propuestas que se generen
 
 
-* **[Web Común](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/2)**: crear [la web](](comunidades-tecnologicas.github.io)) de la "metacomunidad"
+* **[Web Común](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/2)**
   * Equipo: [ntkog](http://github.com/ntkog), [hhkaos](http://github.com/hhkaos)
-* **[Calendario común de Eventos](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/3)**:
+* **[Calendario común de Eventos](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/3)**
   * Equipo: [ntkog](http://github.com/ntkog)
-* **[Documentación para organizadores](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/4)**: reunir guías de otras comunidades sobre "buenas prácticas" y otros materiales útiles para organizadores, etc. ¿crear una meta-guía? (Guías de comunicación , asociación , espacios para eventos...)
+* **[Documentación para organizadores](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/4)**
 
 ## Cómo Editar/Participar
 
