@@ -5,9 +5,9 @@ En esta sección se recopilará todas las sugerencias sobre grupos de trabajo pa
 
 * **[Web Común](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/2)**: crear [la web](](comunidades-tecnologicas.github.io)) de la "metacomunidad"
   * Equipo: [ntkog](http://github.com/ntkog), [hhkaos](http://github.com/hhkaos)
-* **Calendario común de Eventos**:
+* **[Calendario común de Eventos](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/3)**:
   * Equipo: [ntkog](http://github.com/ntkog)
-* **Documentación para organizadores**: reunir guías de otras comunidades sobre "buenas prácticas" y otros materiales útiles para organizadores, etc. ¿crear una meta-guía? (Guías de comunicación , asociación , espacios para eventos...)
+* **[Documentación para organizadores](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/4)**: reunir guías de otras comunidades sobre "buenas prácticas" y otros materiales útiles para organizadores, etc. ¿crear una meta-guía? (Guías de comunicación , asociación , espacios para eventos...)
 
 ## Cómo Editar/Participar
 
