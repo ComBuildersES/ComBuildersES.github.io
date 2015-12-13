@@ -11,9 +11,10 @@ Herramientas reutilizables por otros organizadores:
 * [Gitevents](https://github.com/gitevents/core)
 * [Código de la web de la comunidad de geodevelopers.org](https://github.com/Geo-Developers/geo-developers-site)
 
-Herramientas crea
-* Calendarios
+Herramientas, contenidos y bots creados:
+* Eventos a nivel nacional
   * [Agregador de calendarios de Meetup Jesús CEA](http://calendario.es.python.org/fusion.ics)
   * [Listado de eventos en Drive](https://docs.google.com/spreadsheets/d/1d-eFcj_t_tJ0Mr5K_f3rJKkQckXSW1m6bUZBX6zcG0Y/edit?usp=drive_web)
-  * Agenda de Betabeers
+  * [Cuenta de Twitter con eventos @comunidadestech](https://twitter.com/comunidadestech)
+  * [Agenda de Betabeers](https://betabeers.com/event/)
 
