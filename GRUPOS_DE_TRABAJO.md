@@ -8,6 +8,7 @@ En esta sección se recopilará todas las sugerencias sobre grupos de trabajo pa
 * **[Calendario común de Eventos](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/3)**
   * Equipo: [ntkog](http://github.com/ntkog)
 * **[Documentación para organizadores](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/4)**
+  * Equipo: [elsatch](https://github.com/elsatch), [hhkaos](http://github.com/hhkaos)
 
 ## Cómo Editar/Participar
 
