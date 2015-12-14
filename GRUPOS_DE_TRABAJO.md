@@ -4,11 +4,11 @@ En esta sección se recopilará todas las sugerencias sobre grupos de trabajo pa
 
 
 * **[Web Común](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/2)**
-  * Equipo: [ntkog](http://github.com/ntkog), [hhkaos](http://github.com/hhkaos)
+  * Equipo: [ntkog](http://github.com/ntkog), [hhkaos](http://github.com/hhkaos), [@jsmanrique](https://github.com/jsmanrique)
 * **[Calendario común de Eventos](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/3)**
   * Equipo: [ntkog](http://github.com/ntkog)
 * **[Documentación para organizadores](https://github.com/Comunidades-Tecnologicas/comunidades-tecnologicas.github.io/issues/4)**
-  * Equipo: [elsatch](https://github.com/elsatch), [hhkaos](http://github.com/hhkaos)
+  * Equipo: [elsatch](https://github.com/elsatch), [hhkaos](http://github.com/hhkaos), [@jsmanrique](https://github.com/jsmanrique)
 
 ## Cómo Editar/Participar
 
