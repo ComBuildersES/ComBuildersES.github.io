@@ -37,8 +37,6 @@
 .flip-container, .front, .back {
 	width: 100%;
 	height: 200px;
-	padding:;
-	nter;
 }
 .back {
 	height: 198px;
@@ -138,4 +136,11 @@
 	padding: 0 20px;
   font-family: arial;
   line-height: 2em;
+}
+
+@media screen and (max-width: 480px) {
+	#community-list li{
+		width: 88%;
+		margin: 0 auto 1rem;
+	}
 }
