@@ -12,7 +12,7 @@
 
 		var htmlOutput = template.render(data.communities);
 
-		$('#content').html('<ul>'+htmlOutput+'</ul>');
+		$('#community-list').html(htmlOutput);
 	  /*$( '<ul/>', {
 	    'class': 'my-new-list',
 	    html: items.join( '' )

@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/communities.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -62,7 +63,8 @@
 				<section class="wrapper style1">
 					<div class="container">
 						<div id="content">
-
+<ul id="community-list">
+</ul>
 							
 
 						</div>
@@ -156,11 +158,19 @@
 			<script src="assets/js/directory.js"></script>
 
 			<script id="itemTmpl" type="text/x-jsrender">
-			<li>
-				  {{if photo && photo.thumb_link}}
-						<img src="{{:photo.thumb_link}}">
-					{{/if}}
-					{{:name}}
+			<li class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" {{if photo && photo.photo_link}}style="background-image: url({{:photo.photo_link}})"{{/if}}>
+			      
+			    </div>
+			    <div class="back">
+			      <small>{{:location}}</small>
+			    </div>
+				</div>
+				<div class="footer">
+					<a href="{{:web}}">{{:name}}</a><br>
+				</div>
+					
 			</li>
 			</script>
 	</body>

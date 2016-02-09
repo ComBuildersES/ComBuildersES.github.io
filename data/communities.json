@@ -1,6 +1,6 @@
 {
     "communities": [{
-        "name": "Madriagil - Grupo Meetup de Agilismo de Madrid",
+        "name": "Madriagil",
         "description": "<p>Una forma de entrar en contacto con la comunidad ágil de Madrid.</p>\r\n<p>Los miembros de Madriagil nos reunimos de forma regular cada 3 semanas y nos ayudamos de este grupo de Meetup para coordinar esos encuentros.</p>\r\n<p>Todo el mundo es bienvenido&hellip; da igual si eres un gurú o un curioso que quiere conocer más. Sólo tienes que apuntarte a un evento y aparecer por allí. O simplemente aparecer (pero si te apuntas, podremos conseguir que haya sillas para todos).</p>\r\n<p>Si quieres organizar algún otro \"evento ágil\" (por ejemplo, son famosas las \"ca&ntilde;as ágiles\"), no dudes en sugerirlo. Todos los miembros pueden proponer nuevos meetups.</p>\r\n<p>Cuántos más seamos, mejor nos lo pasaremos y más cosas podremos hacer :-)</p>",
         "tags": {
             "softwaredev": "Software Development",
@@ -67,7 +67,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Internet of Things Madrid Meetup",
+        "name": "Internet of Things Madrid",
         "description": "<p>IoT Madrid Meetup explora Internet de las Cosas y su aplicación práctica en la ciudad de Madrid. Estos encuentros aspiran a servir de lugar de encuentro para los ciudadanos interesados en comprender mejor su entorno urbano a través de la tecnología.</p>",
         "tags": {
             "newtech": "New Technology",
@@ -99,7 +99,7 @@
             "it-accessibility": "IT Accessibility",
             "accesibilidad-web": "Accesibilidad Web"
         },
-        "location": "Madrid",
+        "location": "España",
         "web": "http://www.meetup.com/Accesibilidad-Spain/",
         "ical": "Accesibilidad-Spain",
         "twitter": null,
@@ -120,7 +120,7 @@
             "computer-programming": "Computer programming",
             "neo4j": "Neo4j"
         },
-        "location": "Madrid",
+        "location": "España",
         "web": "http://www.meetup.com/graphdb-spain/",
         "ical": "graphdb-spain",
         "twitter": null,
@@ -170,7 +170,7 @@
             "responsive-web-design": "Responsive Web Design",
             "html-5-css3": "HTML 5/CSS3"
         },
-        "location": "Madrid",
+        "location": "España",
         "web": "http://www.meetup.com/HTML5-Spain/",
         "ical": "HTML5-Spain",
         "twitter": null,
@@ -249,7 +249,7 @@
             "nosql": "NoSQL",
             "big-data-analytics": "Big Data Analytics"
         },
-        "location": "Madrid",
+        "location": "España",
         "web": "http://www.meetup.com/BigDataSpain/",
         "ical": "BigDataSpain",
         "twitter": null,
@@ -398,7 +398,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Spain Mobile Apps Developer Group",
+        "name": "Spain Mobile Apps Developer",
         "description": "<p>ESPAÑOL==&gt;&gt;Si eres un desarrollador mobile por favor unete ya a nosotros! Queremos ser una verdadera comunidad mobile en Meetup España.</p>\n<p>ENGLISH ==&gt;&gt; If you are a mobile developer please join us! We want to be a real Spanish mobile community in Meetup.</p>",
         "tags": {
             "mobile-marketing": "Mobile Marketing",
@@ -442,7 +442,7 @@
             "meteor": "Meteor",
             "open-source-frameworks": "Open Source Frameworks"
         },
-        "location": "Madrid",
+        "location": "España",
         "web": "http://www.meetup.com/Meteor-Spain/",
         "ical": "Meteor-Spain",
         "twitter": null,
@@ -506,7 +506,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Madrid Cassandra Users  - by DataStax -",
+        "name": "Madrid Cassandra Users",
         "description": "<p>The Apache Cassandra Project develops a highly scalable second-generation distributed database, bringing together Dynamo's fully distributed design and Bigtable's ColumnFamily-based data model. The Madrid Apache Cassandra User Group is a highly awesome meetup group, bringing together cool people distributed across Madrid to talk about our favorite NoSQL implementation, Apache Cassandra.</p>",
         "tags": {
             "opensource": "Open Source",
@@ -655,7 +655,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "API Hour Group - API Strategists, Makers & Developers",
+        "name": "API Hour Group",
         "description": "<p>¿Qué tecnologías deberías usar para crear tu API? ¿Qué errores tendrías que evitar a toda costa? ¿Cómo funcionan por dentro las APIs más importantes del mercado? ¿Cómo hacer tu API atractiva para los developers? ¿Qué infraestructura es la más adecuada en cada caso? ¿Es la nube la solución a tus problemas? ¿Cómo usar las APIs más potentes en tus aplicaciones móviles? Todas estas y otras muchas preguntas serán respondidas por algunos de los expertos y tecnólogos más prestigiosos, que además, debatirán en una mesa redonda sobre el futuro de las APIs y sobre todos aquellos temas que más debate suscitan entre los profesionales del sector.</p>",
         "tags": {
             "webdesign": "Web Design",
@@ -734,7 +734,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "eCommerce para principiantes | The Fik Initiative | Madrid",
+        "name": "eCommerce para principiantes",
         "description": "<p><span>Organizamos talleres y mesas redondas en las que tratamos temas relacionados con eCommerce, marketing online, fidelización... todo lo que te pueda ayudar a vender más en Internet.</span></p>\n<p>En <a href=\"http://thefik.com\">The Fik Initiative</a> trabajamos para ayudar a <span>emprendedores, pequeños y medianos negocios a abrir y gestionar tiendas de comercio electrónico.<br>\n\n</span></p>\n<p><span>¿Aún no tienes tienda online? Puedes abrirte tu propia tienda en muy poco tiempo en nuestra plataforma de tiendas online: <a href=\"http://fikstores.com\">Fik Stores</a></span></p>\n<p><span>¿Quieres aprender más acerca de eCommerce? Visita nuestro portal <a href=\"http://fikobservatory.com\">Fik Observatory</a></span></p>\n<p><span><br>\n\n</span></p>",
         "tags": {
             "wordpress": "WordPress",
@@ -807,7 +807,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "ScalaMAD: Scala Programming @ Madrid",
+        "name": "ScalaMAD: Scala Programming",
         "description": "<p>Scala es un lenguaje de programación orientado a objetos y, a la vez, un lenguaje funcional. La combinación de estos dos paradigmas hace especialmente atractiva la programación con Scala, y lo convierte en un lenguaje idóneo para la programación paralela y distribuida. Si además estás interesado en los lenguajes específicos de dominio (DSLs), encontrarás en Scala un candidato ideal para implementar tu DSL de manera embebida. Además, ¡Scala ejecuta sobre la máquina virtual de Java! Este grupo se ha creado con el propósito de compartir experiencias sobre Scala y las distintas tecnologías que forman parte de su ecosistema: frameworks de desarrollo Web como Play o Lift, la infraestructura de middleware basada en actores Akka, frameworks de prueba BDD como Scalatest o Specs, etc. Si te gusta programar y estás interesado en las técnicas más novedosas como la type-level computation, macros para lenguajes estáticamente tipados, etc., te gustará Scala. Y si estás interesado en las últimas tecnologías para el desarrollo de aplicaciones empresariales (programación basada en actores, sistemas orientados a eventos, etc.), no lo dudes, Scala te va a encantar. Únete a nuestro grupo, aprende y comparte con nosotros tus experiencias con Scala.</p>",
         "tags": {
             "programming-languages": "Programming Languages",
@@ -1122,7 +1122,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Gr2Dest - Grupo de estudio de seguridad informática",
+        "name": "Gr2Dest",
         "description": "<p>Gr2Dest es un grupo de estudio, abierto a todo aquel que quiera aprender y enseñar sobre seguridad informática y hacking ético. Mediante reuniones semanales online y todo tipo de eventos unimos fuerzas para aprender sobre seguridad y difundir los conocimientos adquiridos. Todo el mundo que quiera aprender y aportar es bienvenido.</p>",
         "tags": {
             "opensource": "Open Source",
@@ -1174,7 +1174,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "DesignerPills | Web & App design - UX/UI",
+        "name": "DesignerPills",
         "description": "<p><img src=\"http://photos2.meetupstatic.com/photos/event/c/1/4/600_306663092.jpeg\" style=\"max-height : 700px ; max-width : 700px ; margin : 5px\"></p>\n<p><span>It is almost impossible to stay ahead of the newest graphic and tech trends, this meet up group hopefully gives you as a designer an opportunity to meet and discuss ideas with others of our kind. </span></p>\n<p>Share experiences; Critique Web sites; talk industry, business, employment; Share motivations and inspirations<br>\n\n</p>\n<p><b>Who is it for?</b></p>\n<p>This group welcomes both expert and newbies, developers and companies. If you're not an expert, but want to learn, we'd like to meet you, too. Come join us to create, share, laugh and connect.</p>\n<p>----------------------------------------------------------------------</p>\n<p>Es casi imposible mantenerse a la vanguardia de las últimas tendencias gráficas y tecnológicas en el campo de internet, este grupo brinda al diseñador la oportunidad de reunirse y discutir ideas con otras personas del mundo del diseño. </p>\n<p>Compartir experiencias, análisis, negocios, empleo, motivaciones e inspiraciones.</p>\n<p><br>\n\n <b>¿A quién va dirigido? </b></p>\n<p>El grupo da la bienvenida tanto a los expertos y novatos, desarrolladores y empresas. Si usted no es un experto, pero quiere aprender, nos gustaría también conocerte. Venga y únase a nosotros para crear, compartir, reír y conectar.<br>\n\n</p>",
         "tags": {
             "webdesign": "Web Design",
@@ -1416,7 +1416,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Software Craftsmanship Toledo-ES",
+        "name": "Software Craftsmanship",
         "description": "<p>El espíritu de este grupo es fomentar y compartir las metodologías ágiles en los procesos de desarrollo de software en la comunidad de Castilla-La Mancha. Si quieres compartir lo que estás haciendo cuando desarrollas software o quieres aprender de otros apasionados de la ingeniería software en tu región, encontrarás en este grupo lo que buscas. (Este grupo desarrolla su actividad en toda la Comunidad de Castilla-La Mancha, no sólo en Toledo)</p>",
         "tags": {
             "java": "Java",
@@ -1618,7 +1618,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "Comunidades Tecnológicas Madrid",
+        "name": "Com. Tecnológicas Madrid",
         "description": "<p>Lugar de encuentro para coordinadores de comunidades tecnológicas. Todos nos encontramos las mismas dificultades: darnos a conocer, encontrar salas de reuniones, y localizar contactos para asuntos oficiales. Queremos poner en común información útil: salas de reunión, horarios, organización de hackathons, contactos, coordinación de eventos. También es interesante vernos las caras de vez en cuando.</p>\n<p>Nos reservamos el derecho de restringir el acceso sólo a coordinadores de comunidades tecnológicas reales, para mantener el grupo on topic.<br>\n\n</p>",
         "tags": {
             "technology": "Technology",
@@ -2216,7 +2216,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "Madrid AppleCoding, iOS/OS X Development Meetup",
+        "name": "AppleCoding, iOS/OS X Dev.",
         "description": "<p>Encuentros y actividades relacionadas con el desarrollo de apps en entornos Apple, creado por AppleCoding.com, para divulgar la formación y el desarrollo en entornos iOS y OS X, de apps y videojuegos en Objective-C o Swift.</p>",
         "tags": {
             "mac": "Mac",
@@ -2429,7 +2429,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "Internet de las Cosas, Aplicaciones Domóticas y Arduino",
+        "name": "Apps Domóticas y Arduino",
         "description": "<p>Descripción:<br>Nuestros talleres de Arduino y Domótica proporcionarán una introducción a Arduino y la electrónica para todos los participantes. Si usted está interesado en el control de sus equipos electrónicos del hogar, moda interactiva, la creación de instalaciones interactivas, o simplemente hacer juguetes divertidos, computación física con Arduino puede ayudar a lograr esto.<br>Empezamos viendo cómo funciona Arduino, cómo escribir programas y cargarlos, y cómo usted puede leer sensores y hacer que las cosas se iluminen. Después de una amplia introducción al mundo de la computación física, se construirán diversos sistemas para controlar cualquier aparato en su casa con los datos que leemos de un sensor.</p>",
         "tags": {
             "ai": "Artificial Intelligence",
@@ -2454,7 +2454,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "Madrid DUG ( Google Dart User Group)",
+        "name": "Google Dart User Group",
         "description": "<p>Nos gusta la programación, nos interesa Google Dart y estamos en Madrid. Si te interesa Dart pásate por el grupo :)</p>\n<p> <br></p>\n<p>Grupo de Google/ Lista de correo:</p>\n<p><a href=\"https://groups.google.com/forum/#!forum/madrid-dug\">Madrid DUG: Grupo de Usuarios de Dart de Madrid </a> <br></p>\n<p> <br></p>\n<p>Desde hace nada, también twitter!</p>\n<p>@madriddug en&nbsp;https://twitter.com/madriddug</p>\n<p>* @madriddug seguirá a todo miembro del grupo que quiera estar conectado :)</p>\n<p> <br></p>",
         "tags": {
             "opensource": "Open Source",
@@ -2483,7 +2483,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Madrid Amazon Web Services (AWS) Meetup",
+        "name": "Madrid Amazon Web Services",
         "description": "<p>Un grupo dedicado a los usuarios, apasionados de las nuevas tecnologías y clientes de Amazon Web Services que deseen compartir experiencias, desarrollos, casos de éxito, anécdotas sobre los servicios en la nube<span>&nbsp;y por que no, una que otra cerveza ;)</span></p>",
         "tags": {
             "ec2": "EC2",
@@ -2554,7 +2554,7 @@
         "twitter": null,
         "type": "meetup"
     }, {
-        "name": "Grupo de Usuarios de R de Madrid",
+        "name": "Grupo de Usuarios de R",
         "description": "<p>Somos un grupo de entusiastas de R de Madrid. Nos reunimos periódicamente para charlar informalmente de cosas que hacemos con R y que pueden tener interés para otros.</p>\n<p>•&nbsp; <b>¿Dónde nos reunimos?</b> Las útimas reuniones se están celebrando en la Facultad de Ciencias – UNED. C/ Senda del Rey, 9.</p>\n<p>•<b> ¿Quieres acudir?</b> Simplemente, ven. En esta página encontrarás la convocatoria de la siguiente reunión y la lista de las anteriores,<br></p>\n<p>•<b>&nbsp;¿Quieres participar?</b> Si has hecho algo interesante con R, algo que crees que puede ser útil a terceros y quieres enseñárnoslo entre amigos, ¡hazlo! Escribe a r-madrid@r-es.org y te buscaremos un hueco en la agenda para las siguientes reuniones.</p>\n<p>Si quieres ver el detalle de presentaciones, video, código de reuniones pasadas, lo más directo es bucear en el portal del grupo:</p>\n<p><a href=\"http://madrid.r-es.org\">http://madrid.r-es.org</a><br></p>",
         "tags": {
             "edtech": "Education & Technology",
@@ -2597,7 +2597,7 @@
         },
         "type": "meetup"
     }, {
-        "name": "Madrid PaaS, Cloud Foundry and Bluemix Meetup",
+        "name": "Cloud Foundry and Bluemix",
         "description": "<p>Bienvenidos a <a href=\"http://ibm.biz/BluemixES\">Bluemix</a> <br></p>\n<p>Este meetup está orientado a desarrolladores, arquitectos, estudiantes y todos los entusiastas del PaaS y Cloud Foundry, y del desarrollo en general. El objetivo de este grupo es ir mostrando las capacidades de <a href=\"http://ibm.biz/BluemixES\">Bluemix </a>(el PaaS de IBM) de una forma muy práctica.</p>\n<p>Estamos preparando la próxima quedada y ya tenemos varias ideas en la cabeza que en breve os contaremos. Tendremos un formato de hora y media entre charlas y demos, y luego nos tomaremos un piscolabis para saborear todo lo aprendido.</p>\n<p><img src=\"http://photos3.meetupstatic.com/photos/event/2/e/a/d/600_435131949.jpeg\"></p>\n<p>Cualquier cosa que os interese saber, por favor no dudéis en contactar con los organizadores.</p>\n<p>Saludos y bienvenidos de nuevo.</p>",
         "tags": {
             "softwaredev": "Software Development",
