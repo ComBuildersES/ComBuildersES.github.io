@@ -10,10 +10,16 @@
             "lean-startup": "Lean Startup",
             "computer-programming": "Computer programming"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madriagil/",
         "ical": "madriagil",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/2/5/7/7/highres_26709591.jpeg",
+            "photo_id": 26709591,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/2/5/7/7/600_26709591.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/2/5/7/7/thumb_26709591.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "MadridJS",
@@ -31,10 +37,16 @@
             "computer-programming": "Computer programming",
             "html5": "HTML5"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madridjs/",
         "ical": "madridjs",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/3/e/1/e/highres_139815902.jpeg",
+            "photo_id": 139815902,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/3/e/1/e/600_139815902.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/3/e/1/e/thumb_139815902.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Hacks/Hackers Madrid",
@@ -43,10 +55,16 @@
             "hacking": "Hacking",
             "hackshackers": "HacksHackers"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Hacks-Hackers-Madrid/",
         "ical": "Hacks-Hackers-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/7/d/c/highres_57542012.jpeg",
+            "photo_id": 57542012,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/7/d/c/600_57542012.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/7/d/c/thumb_57542012.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Internet of Things Madrid Meetup",
@@ -58,10 +76,16 @@
             "sensors": "Sensors",
             "open-infrastructure": "Open Infrastructure"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/iotmadrid/",
         "ical": "iotmadrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/highres_138052302.jpeg",
+            "photo_id": 138052302,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/600_138052302.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/thumb_138052302.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Accesibilidad Spain",
@@ -75,10 +99,16 @@
             "it-accessibility": "IT Accessibility",
             "accesibilidad-web": "Accesibilidad Web"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Accesibilidad-Spain/",
         "ical": "Accesibilidad-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/4/7/2/4/highres_295518212.jpeg",
+            "photo_id": 295518212,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/4/7/2/4/600_295518212.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/7/2/4/thumb_295518212.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Neo4j España",
@@ -90,10 +120,16 @@
             "computer-programming": "Computer programming",
             "neo4j": "Neo4j"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/graphdb-spain/",
         "ical": "graphdb-spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/b/4/b/1/highres_446266257.jpeg",
+            "photo_id": 446266257,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/b/4/b/1/600_446266257.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/b/4/b/1/thumb_446266257.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Ecomm & Beers Madrid",
@@ -104,10 +140,16 @@
             "internet-ecommerce": "E-Commerce",
             "ecommerce-technology": "eCommerce Technology"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/EcommBeersMadrid/",
         "ical": "EcommBeersMadrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/4/0/4/e/highres_289756462.jpeg",
+            "photo_id": 289756462,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/4/0/4/e/600_289756462.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/0/4/e/thumb_289756462.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "HTML5 Spain",
@@ -128,10 +170,16 @@
             "responsive-web-design": "Responsive Web Design",
             "html-5-css3": "HTML 5/CSS3"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/HTML5-Spain/",
         "ical": "HTML5-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/e/4/5/8/highres_442798456.jpeg",
+            "photo_id": 442798456,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/e/4/5/8/600_442798456.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/e/4/5/8/thumb_442798456.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "WordPress Madrid",
@@ -148,10 +196,16 @@
             "wordpress-help": "Wordpress Help",
             "wordpress-for-business": "WordPress for Business"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/WordPress-Madrid/",
         "ical": "WordPress-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/highres_172477962.jpeg",
+            "photo_id": 172477962,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/600_172477962.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/thumb_172477962.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid GUG",
@@ -172,10 +226,16 @@
             "computer-programming": "Computer programming",
             "jvm-languages": "JVM Languages"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madrid-gug/",
         "ical": "madrid-gug",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/b/1/a/b/highres_445365483.jpeg",
+            "photo_id": 445365483,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/b/1/a/b/600_445365483.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/b/1/a/b/thumb_445365483.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Big Data Spain",
@@ -189,10 +249,16 @@
             "nosql": "NoSQL",
             "big-data-analytics": "Big Data Analytics"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/BigDataSpain/",
         "ical": "BigDataSpain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/d/3/c/6/highres_435414214.jpeg",
+            "photo_id": 435414214,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/d/3/c/6/600_435414214.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/3/c/6/thumb_435414214.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Indie Games Madrid",
@@ -214,10 +280,16 @@
             "android-game-development": "Android Game Development",
             "ios-game-development": "iOS Game Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/indiegamesMadrid/",
         "ical": "indiegamesMadrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/1/a/2/e/highres_156486702.jpeg",
+            "photo_id": 156486702,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/1/a/2/e/600_156486702.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/1/a/2/e/thumb_156486702.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Corona SDK - Madrid",
@@ -231,10 +303,16 @@
             "corona-sdk": "Corona SDK",
             "aplicaciones-moviles-y-tabletas-apple-y-android": "Aplicaciones Moviles y Tabletas (Apple y Android)"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Corona-SDK-Madrid/",
         "ical": "Corona-SDK-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/4/3/e/6/highres_153677382.jpeg",
+            "photo_id": 153677382,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/4/3/e/6/600_153677382.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/3/e/6/thumb_153677382.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "LeanStartupCircle - Madrid",
@@ -255,10 +333,16 @@
             "lean-startup-para-directivos": "Lean startup para directivos",
             "lean-startup-para-pymes": "Lean startup para PYMEs"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/LeanStartupCircle-Madrid/",
         "ical": "LeanStartupCircle-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/a/e/3/a/highres_156284602.jpeg",
+            "photo_id": 156284602,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/a/e/3/a/600_156284602.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/a/e/3/a/thumb_156284602.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Software Craftsmanship Madrid",
@@ -275,10 +359,16 @@
             "computer-programming": "Computer programming",
             "software-craftsmanship": "Software Craftsmanship"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madswcraft/",
         "ical": "madswcraft",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/highres_190686582.jpeg",
+            "photo_id": 190686582,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/600_190686582.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/thumb_190686582.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid MongoDB User Group",
@@ -296,10 +386,16 @@
             "nosql": "NoSQL",
             "mongodb": "MongoDB"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-MongoDB-User-Group/",
         "ical": "Madrid-MongoDB-User-Group",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/f/d/e/highres_430204062.jpeg",
+            "photo_id": 430204062,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/f/d/e/600_430204062.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/f/d/e/thumb_430204062.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Spain Mobile Apps Developer Group",
@@ -316,10 +412,16 @@
             "windows-phone-developers": "Windows Phone Developers",
             "mobile-html5": "Mobile HTML5"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Spain-Mobile-Apps-Developer-Group/",
         "ical": "Spain-Mobile-Apps-Developer-Group",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/6/d/3/a/highres_194127962.jpeg",
+            "photo_id": 194127962,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/6/d/3/a/600_194127962.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/6/d/3/a/thumb_194127962.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Meteor Spain",
@@ -340,10 +442,16 @@
             "meteor": "Meteor",
             "open-source-frameworks": "Open Source Frameworks"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Meteor-Spain/",
         "ical": "Meteor-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/9/1/8/e/highres_398377262.jpeg",
+            "photo_id": 398377262,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/9/1/8/e/600_398377262.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/1/8/e/thumb_398377262.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "AngularJS Madrid",
@@ -356,10 +464,16 @@
             "nodejs": "nodeJS",
             "angularjs": "AngularJS"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/AngularJS_Madrid/",
         "ical": "AngularJS_Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/7/7/4/9/highres_436590537.jpeg",
+            "photo_id": 436590537,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/7/7/4/9/600_436590537.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/7/7/4/9/thumb_436590537.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Makespace Madrid",
@@ -380,10 +494,16 @@
             "hackerspace": "hackerspace",
             "fab-lab": "Fab lab"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Makespace-Madrid/",
         "ical": "Makespace-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/highres_209209332.jpeg",
+            "photo_id": 209209332,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/600_209209332.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/thumb_209209332.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Cassandra Users  - by DataStax -",
@@ -405,10 +525,16 @@
             "mongodb": "MongoDB",
             "apache-pig": "Apache Pig"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Cassandra-Users/",
         "ical": "Madrid-Cassandra-Users",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/3/b/3/0/highres_328395152.jpeg",
+            "photo_id": 328395152,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/3/b/3/0/600_328395152.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/3/b/3/0/thumb_328395152.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "MadridDotNet",
@@ -426,10 +552,16 @@
             "microsoft-net-user-group": "Microsoft .Net User Group",
             "windows-8-development": "Windows 8 Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madriddotnet/",
         "ical": "madriddotnet",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/d/d/c/1/highres_444296769.jpeg",
+            "photo_id": 444296769,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/d/d/c/1/600_444296769.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/d/d/c/1/thumb_444296769.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid CUDA Cats",
@@ -442,7 +574,7 @@
             "nvidia": "Nvidia",
             "gpu-programming": "GPU Programming"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-CUDA-Cats/",
         "ical": "Madrid-CUDA-Cats",
         "twitter": null,
@@ -463,10 +595,16 @@
             "ibm": "IBM",
             "bigdatadevelopers": "BigDataDevelopers"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Big-Data-Developers-in-Madrid/",
         "ical": "Big-Data-Developers-in-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/2/2/8/0/highres_363308832.jpeg",
+            "photo_id": 363308832,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/2/2/8/0/600_363308832.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/2/2/8/0/thumb_363308832.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "WSO2 Professionals - Madrid",
@@ -480,10 +618,16 @@
             "devops": "DevOps",
             "iaas-infrastructure-as-a-service": "IaaS (Infrastructure as a Service)"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/WSO2-Professionals-Madrid/",
         "ical": "WSO2-Professionals-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/5/b/2/e/highres_221303342.jpeg",
+            "photo_id": 221303342,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/5/b/2/e/600_221303342.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/5/b/2/e/thumb_221303342.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Puppet User Group",
@@ -499,10 +643,16 @@
             "puppet": "puppet",
             "continuous-delivery": "Continuous Delivery"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madrid-pug/",
         "ical": "madrid-pug",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/7/0/6/e/highres_421288782.jpeg",
+            "photo_id": 421288782,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/7/0/6/e/600_421288782.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/7/0/6/e/thumb_421288782.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "API Hour Group - API Strategists, Makers & Developers",
@@ -522,10 +672,16 @@
             "web-api-design": "Web API design",
             "application-programming-interface": "Application Programming Interface"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/the-api-hour-group/",
         "ical": "the-api-hour-group",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/highres_226373712.jpeg",
+            "photo_id": 226373712,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/600_226373712.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/thumb_226373712.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Drupal Madrid",
@@ -544,7 +700,7 @@
             "drupal-modules": "Drupal Modules",
             "drupal-themers": "Drupal themers"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Drupal-Madrid/",
         "ical": "Drupal-Madrid",
         "twitter": null,
@@ -566,10 +722,16 @@
             "ios-development": "iOS Development",
             "osx-development": "OSX Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/NSCoder-Night-Madrid/",
         "ical": "NSCoder-Night-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/e/3/f/a/highres_427798362.jpeg",
+            "photo_id": 427798362,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/e/3/f/a/600_427798362.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/e/3/f/a/thumb_427798362.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "eCommerce para principiantes | The Fik Initiative | Madrid",
@@ -589,10 +751,16 @@
             "e-commerce-internet-marketing": "E-Commerce - Internet Marketing",
             "ecommerce-marketing": "eCommerce Marketing"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/eCommerce-para-principiantes-FikStores-Madrid/",
         "ical": "eCommerce-para-principiantes-FikStores-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/c/f/d/4/highres_432053204.jpeg",
+            "photo_id": 432053204,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/c/f/d/4/600_432053204.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/f/d/4/thumb_432053204.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Arduino Madrid",
@@ -611,7 +779,7 @@
             "arduino-and-robotics": "Arduino and Robotics",
             "raspberry-pi": "Raspberry Pi"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Arduino-Madrid/",
         "ical": "Arduino-Madrid",
         "twitter": null,
@@ -633,7 +801,7 @@
             "nosql": "NoSQL",
             "mysql-dba": "MySQL DBA"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-MySQL-users-group/",
         "ical": "Madrid-MySQL-users-group",
         "twitter": null,
@@ -654,10 +822,16 @@
             "play-framework": "Play Framework",
             "akka": "Akka"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Scala-Programming-Madrid/",
         "ical": "Scala-Programming-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/d/0/4/a/highres_250073322.jpeg",
+            "photo_id": 250073322,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/d/0/4/a/600_250073322.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/d/0/4/a/thumb_250073322.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "VIM Madrid",
@@ -671,10 +845,16 @@
             "vimrc": "vimrc",
             "vim-plugins": "vim plugins"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/VIM-Madrid/",
         "ical": "VIM-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/b/6/d/c/highres_250486812.jpeg",
+            "photo_id": 250486812,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/b/6/d/c/600_250486812.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/b/6/d/c/thumb_250486812.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "PHPMad",
@@ -694,10 +874,16 @@
             "symfony2": "Symfony2",
             "laravel": "Laravel"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/PHPMad/",
         "ical": "PHPMad",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/d/2/3/e/highres_295253822.jpeg",
+            "photo_id": 295253822,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/d/2/3/e/600_295253822.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/2/3/e/thumb_295253822.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Functional Programming Madrid",
@@ -710,10 +896,16 @@
             "web-programmers": "Web Programming",
             "computer-programming": "Computer programming"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/FP-Madrid/",
         "ical": "FP-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/highres_268661242.jpeg",
+            "photo_id": 268661242,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/600_268661242.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/thumb_268661242.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Node.js Madrid",
@@ -732,10 +924,16 @@
             "front-end-development": "Front-end Development",
             "nodejs": "nodeJS"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Node-js-Madrid/",
         "ical": "Node-js-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/1/4/7/0/highres_377645232.jpeg",
+            "photo_id": 377645232,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/1/4/7/0/600_377645232.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/4/7/0/thumb_377645232.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "FirefoxOS Madrid",
@@ -756,10 +954,16 @@
             "user-interface-design": "User Interface Design",
             "mobile-user-experience": "Mobile User Experience"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/FirefoxOS-Madrid/",
         "ical": "FirefoxOS-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/highres_269400812.jpeg",
+            "photo_id": 269400812,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/600_269400812.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/thumb_269400812.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Factoría Startup",
@@ -779,7 +983,7 @@
             "technology-startups": "Technology Startups",
             "cofounders-speed-dating": "Cofounders Speed Dating"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Factoria-Startup-Idea-viable-Equipo-solido-Beta-Funcional/",
         "ical": "Factoria-Startup-Idea-viable-Equipo-solido-Beta-Funcional",
         "twitter": null,
@@ -795,10 +999,16 @@
             "mobile-development": "Mobile Development",
             "computer-programming": "Computer programming"
         },
-        "location": "Europe/Madrid",
+        "location": "Ciudad Real",
         "web": "http://www.meetup.com/Ciudad-Real-JS/",
         "ical": "Ciudad-Real-JS",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/highres_279018772.jpeg",
+            "photo_id": 279018772,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/600_279018772.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/thumb_279018772.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Emacs Madrid",
@@ -814,10 +1024,16 @@
             "integrated-development-environment": "Integrated Development Environment",
             "emacs-lisp": "Emacs Lisp"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Emacs-Madrid/",
         "ical": "Emacs-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/1/c/4/0/highres_446707232.jpeg",
+            "photo_id": 446707232,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/1/c/4/0/600_446707232.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/c/4/0/thumb_446707232.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Robots",
@@ -839,10 +1055,16 @@
             "robot": "robot",
             "autonomous-robots": "Autonomous Robots"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/RobotsMadrid/",
         "ical": "RobotsMadrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/e/6/9/8/highres_288719032.jpeg",
+            "photo_id": 288719032,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/e/6/9/8/600_288719032.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/e/6/9/8/thumb_288719032.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Hackathon Lovers",
@@ -864,10 +1086,16 @@
             "computer-programming": "Computer programming",
             "hackathon": "hackathon"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Hackathon-Lovers/",
         "ical": "Hackathon-Lovers",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/5/6/d/8/highres_371842232.jpeg",
+            "photo_id": 371842232,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/5/6/d/8/600_371842232.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/5/6/d/8/thumb_371842232.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "PostgreSQL España",
@@ -882,10 +1110,16 @@
             "development-using-postgresql": "Development using PostgreSQL",
             "postgresql-and-open-source-projects": "PostgreSQL and Open Source Projects"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/PostgreSQL-Espana/",
         "ical": "PostgreSQL-Espana",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/6/3/b/c/highres_290185532.jpeg",
+            "photo_id": 290185532,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/6/3/b/c/600_290185532.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/6/3/b/c/thumb_290185532.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Gr2Dest - Grupo de estudio de seguridad informática",
@@ -904,10 +1138,16 @@
             "computer-security": "Computer Security",
             "hack": "Hack"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Gr2Dest/",
         "ical": "Gr2Dest",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/highres_433316209.jpeg",
+            "photo_id": 433316209,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/600_433316209.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/thumb_433316209.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "#Cañasbloggers",
@@ -928,7 +1168,7 @@
             "lead-generation-prospecting": "Lead Generation & Prospecting",
             "emprendedores": "Emprendedores"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/canasbloggers/",
         "ical": "canasbloggers",
         "twitter": null,
@@ -944,7 +1184,7 @@
             "app-designers": "app designers",
             "ux-ui-design": "UX / UI Design"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Designerpills/",
         "ical": "Designerpills",
         "twitter": null,
@@ -961,7 +1201,7 @@
             "coders": "Coders",
             "scratch": "Scratch"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Code-Club-Espana/",
         "ical": "Code-Club-Espana",
         "twitter": null,
@@ -984,10 +1224,16 @@
             "go-programming-language": "Go programming language",
             "golang": "golang"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/go-mad/",
         "ical": "go-mad",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/highres_422173772.jpeg",
+            "photo_id": 422173772,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/600_422173772.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/thumb_422173772.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "MAD for OpenStack",
@@ -1007,7 +1253,7 @@
             "cloud-networking": "Cloud Networking",
             "redhat-openstack": "RedHat - OpenStack"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/MAD-for-OpenStack/",
         "ical": "MAD-for-OpenStack",
         "twitter": null,
@@ -1025,10 +1271,16 @@
             "pharo": "Pharo",
             "dynamic-programming": "Dynamic Programming"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/MadridSUG/",
         "ical": "MadridSUG",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/8/8/e/c/highres_332975052.jpeg",
+            "photo_id": 332975052,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/8/8/e/c/600_332975052.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/8/8/e/c/thumb_332975052.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "InGame",
@@ -1048,10 +1300,16 @@
             "talleres-conferencias-cursos-seminarios": "Talleres Conferencias Cursos Seminarios",
             "marketing-y-publicacion-de-videojuegos": "Marketing y Publicación de Videojuegos"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/InGame/",
         "ical": "InGame",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/4/6/d/4/highres_330318132.jpeg",
+            "photo_id": 330318132,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/4/6/d/4/600_330318132.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/6/d/4/thumb_330318132.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "InBound Marketing",
@@ -1072,10 +1330,16 @@
             "content-marketing": "Content Marketing",
             "transmedia": "Transmedia"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/InBounders/",
         "ical": "InBounders",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/1/0/9/2/highres_330244242.jpeg",
+            "photo_id": 330244242,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/1/0/9/2/600_330244242.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/1/0/9/2/thumb_330244242.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Umbraco Meetup",
@@ -1092,10 +1356,16 @@
             "resonsive-web-design-and-umbraco": "Resonsive Web Design and Umbraco",
             "building-a-user-friendly-cms-with-umbraco": "Building a user friendly CMS with Umbraco"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Umbraco-Meetup-Group/",
         "ical": "Madrid-Umbraco-Meetup-Group",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/highres_328834062.jpeg",
+            "photo_id": 328834062,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/600_328834062.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/thumb_328834062.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid C/C++",
@@ -1107,10 +1377,16 @@
             "computer-programming": "Computer programming",
             "software-architecture": "Software Architecture"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-C-Cpp/",
         "ical": "Madrid-C-Cpp",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/8/c/c/a/highres_368916042.jpeg",
+            "photo_id": 368916042,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/8/c/c/a/600_368916042.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/8/c/c/a/thumb_368916042.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Content Strategy Meetup",
@@ -1128,10 +1404,16 @@
             "branded-content": "Branded Content",
             "content-creation-curation-for-the-internet": "Content Creation & Curation for the Internet"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Content-Strategy-Meetup/",
         "ical": "Madrid-Content-Strategy-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/highres_340735522.jpeg",
+            "photo_id": 340735522,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/600_340735522.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/thumb_340735522.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Software Craftsmanship Toledo-ES",
@@ -1149,10 +1431,16 @@
             "software-quality": "Software Quality",
             "software-craftsmanship": "Software Craftsmanship"
         },
-        "location": "Europe/Madrid",
+        "location": "Toledo",
         "web": "http://www.meetup.com/Software-Craftsmanship-Toledo-ES/",
         "ical": "Software-Craftsmanship-Toledo-ES",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/d/b/d/a/highres_334436282.jpeg",
+            "photo_id": 334436282,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/d/b/d/a/600_334436282.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/b/d/a/thumb_334436282.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Blockchain & Ethereum Spain",
@@ -1174,10 +1462,16 @@
             "ethereum": "Ethereum",
             "blockchain": "blockchain"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Blockchain-Ethereum-Spain/",
         "ical": "Blockchain-Ethereum-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/8/1/5/9/highres_433173113.jpeg",
+            "photo_id": 433173113,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/8/1/5/9/600_433173113.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/8/1/5/9/thumb_433173113.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Drupal España",
@@ -1197,10 +1491,16 @@
             "drupal-users": "Drupal Users",
             "drupal-developers": "Drupal Developers"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Drupales/",
         "ical": "Drupales",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/d/0/9/a/highres_338813402.jpeg",
+            "photo_id": 338813402,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/d/0/9/a/600_338813402.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/0/9/a/thumb_338813402.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Docker Madrid",
@@ -1223,10 +1523,16 @@
             "continuous-deployment": "Continuous Deployment",
             "docker": "Docker"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Docker-Madrid/",
         "ical": "Docker-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/3/6/4/e/highres_358693902.jpeg",
+            "photo_id": 358693902,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/3/6/4/e/600_358693902.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/3/6/4/e/thumb_358693902.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Guifi.net Madrid",
@@ -1245,10 +1551,16 @@
             "commons": "Commons",
             "open-infrastructure": "Open Infrastructure"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Guifi-net-Madrid/",
         "ical": "Guifi-net-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/3/7/d/4/highres_340814292.jpeg",
+            "photo_id": 340814292,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/3/7/d/4/600_340814292.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/3/7/d/4/thumb_340814292.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Python Meetup",
@@ -1269,10 +1581,16 @@
             "python-web-development": "Python web development",
             "data-science-using-python": "Data Science using Python"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Python-Meetup/",
         "ical": "Madrid-Python-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/5/6/b/0/highres_341362192.jpeg",
+            "photo_id": 341362192,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/5/6/b/0/600_341362192.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/5/6/b/0/thumb_341362192.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid DevOps",
@@ -1294,7 +1612,7 @@
             "web-operations": "Web Operations",
             "python-linux-devop": "Python/Linux devop"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madrid-devops/",
         "ical": "madrid-devops",
         "twitter": null,
@@ -1309,7 +1627,7 @@
             "event-space": "Event space",
             "coordinacion": "Coordinación"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Comunidades-Tecnologicas-Madrid/",
         "ical": "Comunidades-Tecnologicas-Madrid",
         "twitter": null,
@@ -1329,7 +1647,7 @@
             "ux-ui-design": "UX / UI Design",
             "usability-testing": "Usability testing"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Test-Tube-Madrid/",
         "ical": "Test-Tube-Madrid",
         "twitter": null,
@@ -1353,10 +1671,16 @@
             "computer-programming": "Computer programming",
             "ios-development": "iOS Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/HackerNestMAD/",
         "ical": "HackerNestMAD",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/e/5/e/e/highres_398278862.jpeg",
+            "photo_id": 398278862,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/e/5/e/e/600_398278862.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/e/5/e/e/thumb_398278862.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Geo Developers",
@@ -1378,10 +1702,16 @@
             "geospatial-technologies": "Geospatial technologies",
             "arcgis": "ArcGIS"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Geo-Developers/",
         "ical": "Geo-Developers",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/b/c/9/6/highres_446268278.jpeg",
+            "photo_id": 446268278,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/b/c/9/6/600_446268278.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/b/c/9/6/thumb_446268278.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Bluemove Community",
@@ -1393,10 +1723,16 @@
             "brainstorming-ideas": "Brainstorming Ideas",
             "economia-verde": "Economía Verde"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Bluemove-Community/",
         "ical": "Bluemove-Community",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/highres_365853932.jpeg",
+            "photo_id": 365853932,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/600_365853932.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/thumb_365853932.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Data Science Madrid",
@@ -1417,7 +1753,7 @@
             "applied-statistics": "Applied Statistics",
             "big-data-analytics": "Big Data Analytics"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Data-Science-Madrid/",
         "ical": "Data-Science-Madrid",
         "twitter": null,
@@ -1439,10 +1775,16 @@
             "best-practices-for-high-performance-ecommerce": "Best Practices for High Performance eCommerce",
             "comercio-electronico": "Comercio electrónico"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Prestashop-Madrid/",
         "ical": "Prestashop-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/1/a/d/4/highres_441726868.jpeg",
+            "photo_id": 441726868,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/1/a/d/4/600_441726868.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/1/a/d/4/thumb_441726868.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid On Rails",
@@ -1463,10 +1805,16 @@
             "html5": "HTML5",
             "pymes": "PyMes"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-On-Rails/",
         "ical": "Madrid-On-Rails",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/9/8/2/5/highres_444338949.jpeg",
+            "photo_id": 444338949,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/9/8/2/5/600_444338949.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/8/2/5/thumb_444338949.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Famo.us Madrid",
@@ -1483,10 +1831,16 @@
             "javascript-frameworks": "JavaScript Frameworks",
             "javascript-applications": "JavaScript Applications"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Famo-us-Madrid/",
         "ical": "Famo-us-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/highres_436911113.jpeg",
+            "photo_id": 436911113,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/600_436911113.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/thumb_436911113.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Grupo de usuarios de git",
@@ -1499,7 +1853,7 @@
             "distributed-version-control-system": "Distributed Version Control System",
             "version-control": "Version Control"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Spanish-Git-Meetup/",
         "ical": "Spanish-Git-Meetup",
         "twitter": null,
@@ -1513,10 +1867,16 @@
             "startup-businesses": "Startup Businesses",
             "technology-startups": "Technology Startups"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/TetuanValley/",
         "ical": "TetuanValley",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/6/d/2/6/highres_371307942.jpeg",
+            "photo_id": 371307942,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/6/d/2/6/600_371307942.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/6/d/2/6/thumb_371307942.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Learn to code - Ironhack Madrid",
@@ -1537,10 +1897,16 @@
             "technology-startups": "Technology Startups",
             "ios-development": "iOS Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/ironhack-madrid/",
         "ical": "ironhack-madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/highres_442340351.jpeg",
+            "photo_id": 442340351,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/600_442340351.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/thumb_442340351.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Docker España Meetup",
@@ -1552,7 +1918,7 @@
             "devops": "DevOps",
             "docker": "Docker"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/DockerEspanaMeetup/",
         "ical": "DockerEspanaMeetup",
         "twitter": null,
@@ -1572,10 +1938,16 @@
             "bitcoin-business-model": "Bitcoin business model",
             "bitcoin-security": "Bitcoin Security"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Blockchain-Bitcoin-Madrid/",
         "ical": "Blockchain-Bitcoin-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/highres_442869315.jpeg",
+            "photo_id": 442869315,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/600_442869315.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/thumb_442869315.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid ElasticSearch Meetup",
@@ -1590,10 +1962,16 @@
             "elasticsearch": "ElasticSearch",
             "apache-storm": "Apache Storm"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-ElasticSearch-Meetup/",
         "ical": "Madrid-ElasticSearch-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/b/c/a/e/highres_436908302.jpeg",
+            "photo_id": 436908302,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/b/c/a/e/600_436908302.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/b/c/a/e/thumb_436908302.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Machine Learning Spain",
@@ -1615,10 +1993,16 @@
             "apache-mahout": "Apache Mahout",
             "big-data-analytics": "Big Data Analytics"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/MachineLearningSpain/",
         "ical": "MachineLearningSpain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/c/9/6/highres_400863222.jpeg",
+            "photo_id": 400863222,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/c/9/6/600_400863222.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/c/9/6/thumb_400863222.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Polymer Group",
@@ -1639,10 +2023,16 @@
             "javascript-frameworks": "JavaScript Frameworks",
             "javascript-best-practices": "Javascript best practices"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Polymer-Group/",
         "ical": "Madrid-Polymer-Group",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/4/a/e/e/highres_403339182.jpeg",
+            "photo_id": 403339182,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/4/a/e/e/600_403339182.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/4/a/e/e/thumb_403339182.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Apache Cassandra Meetup",
@@ -1662,7 +2052,7 @@
             "aws": "AWS",
             "big-data-analytics": "Big Data Analytics"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Apache-Cassandra-meetup/",
         "ical": "Apache-Cassandra-meetup",
         "twitter": null,
@@ -1683,10 +2073,16 @@
             "openstack": "OpenStack",
             "cloud-networking": "Cloud Networking"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/OpenStack-Spain/",
         "ical": "OpenStack-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/8/2/c/0/highres_411273472.jpeg",
+            "photo_id": 411273472,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/8/2/c/0/600_411273472.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/2/c/0/thumb_411273472.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Conversion Thursday Madrid",
@@ -1701,7 +2097,7 @@
             "marketing-analytics": "Marketing Analytics",
             "big-data-analytics": "Big Data Analytics"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/ConversionThursday/",
         "ical": "ConversionThursday",
         "twitter": null,
@@ -1721,7 +2117,7 @@
             "makerspaces": "Makerspaces",
             "3d-printing": "3D Printing"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Impresion-3D-Madrid/",
         "ical": "Impresion-3D-Madrid",
         "twitter": null,
@@ -1737,7 +2133,7 @@
             "open-source-hardware": "Open Source Hardware",
             "cloud-infrastructure": "Cloud Infrastructure"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/MAD-OpenTech/",
         "ical": "MAD-OpenTech",
         "twitter": null,
@@ -1758,10 +2154,16 @@
             "mobile-user-experience": "Mobile User Experience",
             "ux-ui": "UX/UI"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/UX-Academy/",
         "ical": "UX-Academy",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/4/0/4/c/highres_443536460.jpeg",
+            "photo_id": 443536460,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/4/0/4/c/600_443536460.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/0/4/c/thumb_443536460.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid F# Meetup",
@@ -1780,10 +2182,16 @@
             "ocaml-programming": "OCaml Programming",
             "xamarin": "Xamarin"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madrid-fsharp/",
         "ical": "madrid-fsharp",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/9/c/c/4/highres_421300132.jpeg",
+            "photo_id": 421300132,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/9/c/c/4/600_421300132.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/9/c/c/4/thumb_421300132.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Innovative technology | BEEVA",
@@ -1802,7 +2210,7 @@
             "computer-programming": "Computer programming",
             "apis": "APIs"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Innovative-technology-BEEVA/",
         "ical": "Innovative-technology-BEEVA",
         "twitter": null,
@@ -1825,10 +2233,16 @@
             "ios-development": "iOS Development",
             "apple-software-development": "Apple Software Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/applecoding/",
         "ical": "applecoding",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/4/b/5/c/highres_424879292.jpeg",
+            "photo_id": 424879292,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/4/b/5/c/600_424879292.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/b/5/c/thumb_424879292.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Ansible Madrid",
@@ -1850,7 +2264,7 @@
             "ansible": "Ansible",
             "docker": "Docker"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Ansible-Madrid/",
         "ical": "Ansible-Madrid",
         "twitter": null,
@@ -1874,7 +2288,7 @@
             "ios-development": "iOS Development",
             "mobile-app-development": "Mobile App Development"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Nightowls/",
         "ical": "Madrid-Nightowls",
         "twitter": null,
@@ -1899,7 +2313,7 @@
             "backend": "backend",
             "backbone": "Backbone"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Redradix-Weekends/",
         "ical": "Redradix-Weekends",
         "twitter": null,
@@ -1918,10 +2332,16 @@
             "sinfonier": "Sinfonier",
             "sinfonier-project": "Sinfonier Project"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Sinfonier-Project/",
         "ical": "Sinfonier-Project",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/7/7/e/3/highres_443610691.jpeg",
+            "photo_id": 443610691,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/7/7/e/3/600_443610691.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/7/7/e/3/thumb_443610691.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "WebRTC Meetup Madrid",
@@ -1935,7 +2355,7 @@
             "html5": "HTML5",
             "webrtc": "WebRTC"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/WebRTC-Meetup-Madrid/",
         "ical": "WebRTC-Meetup-Madrid",
         "twitter": null,
@@ -1957,10 +2377,16 @@
             "ios-development": "iOS Development",
             "javascript-applications": "JavaScript Applications"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Ember-js-Madrid/",
         "ical": "Ember-js-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/8/9/f/8/highres_433355320.jpeg",
+            "photo_id": 433355320,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/8/9/f/8/600_433355320.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/8/9/f/8/thumb_433355320.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Hyperpolyglot - Madrid",
@@ -1982,7 +2408,7 @@
             "swift-language": "Swift Language",
             "idris": "Idris"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/hyperpolyglot/",
         "ical": "hyperpolyglot",
         "twitter": null,
@@ -1997,7 +2423,7 @@
             "continuous-delivery": "Continuous Delivery",
             "continuous-deployment": "Continuous Deployment"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Continuous-Delivery/",
         "ical": "Madrid-Continuous-Delivery",
         "twitter": null,
@@ -2022,7 +2448,7 @@
             "arduino-netduino-and-robotics": "Arduino Netduino and Robotics",
             "arduino-uno": "Arduino Uno"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Arduino-y-Domotica-Meetup/",
         "ical": "Madrid-Arduino-y-Domotica-Meetup",
         "twitter": null,
@@ -2045,10 +2471,16 @@
             "google-dart": "Google dart",
             "google-developer-group": "Google Developer Group"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/madrid-dug/",
         "ical": "madrid-dug",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/5/2/3/b/highres_433761051.jpeg",
+            "photo_id": 433761051,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/5/2/3/b/600_433761051.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/5/2/3/b/thumb_433761051.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Amazon Web Services (AWS) Meetup",
@@ -2065,10 +2497,16 @@
             "aws-design-implementation-and-servicing": "AWS design implementation and servicing",
             "aws-programming-and-tools": "AWS Programming and Tools"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Amazon-Web-Services-Meetup/",
         "ical": "Madrid-Amazon-Web-Services-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/e/2/d/3/highres_434038067.jpeg",
+            "photo_id": 434038067,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/e/2/d/3/600_434038067.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/e/2/d/3/thumb_434038067.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Geeks Madrid",
@@ -2090,7 +2528,7 @@
             "hardware-hacks-gadgeteering": "Hardware Hacks & Gadgeteering",
             "internet-of-everything": "Internet of Everything"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Geeks-Madrid/",
         "ical": "Geeks-Madrid",
         "twitter": null,
@@ -2110,7 +2548,7 @@
             "net-development": ".net development",
             "windows-azure-platform": "Windows Azure Platform"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/MSCoders/",
         "ical": "MSCoders",
         "twitter": null,
@@ -2129,7 +2567,7 @@
             "data-science": "Data Science",
             "programming-in-r": "Programming in R"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Grupo-de-Usuarios-de-R-de-Madrid/",
         "ical": "Grupo-de-Usuarios-de-R-de-Madrid",
         "twitter": null,
@@ -2147,10 +2585,16 @@
             "unmanned-vehicles": "Unmanned Vehicles",
             "building-drones": "Building Drones"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Drones-Meetup/",
         "ical": "Madrid-Drones-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/highres_434841357.jpeg",
+            "photo_id": 434841357,
+            "photo_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/600_434841357.jpeg",
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/thumb_434841357.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid PaaS, Cloud Foundry and Bluemix Meetup",
@@ -2166,10 +2610,16 @@
             "bluemix": "BlueMix",
             "ibm-bluemix": "IBM Bluemix"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Madrid-Bluemix-Meetup/",
         "ical": "Madrid-Bluemix-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/highres_435198505.jpeg",
+            "photo_id": 435198505,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/600_435198505.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/thumb_435198505.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "IoT Analytics Spain",
@@ -2187,10 +2637,16 @@
             "sensors": "Sensors",
             "energy-and-utility": "Energy and Utility"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/IoT-Analytics-Spain/",
         "ical": "IoT-Analytics-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/3/a/3/b/highres_435314907.jpeg",
+            "photo_id": 435314907,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/3/a/3/b/600_435314907.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/3/a/3/b/thumb_435314907.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Vaadin Spain",
@@ -2212,10 +2668,16 @@
             "liferay": "Liferay",
             "vaadin": "Vaadin"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Vaadin-Spain/",
         "ical": "Vaadin-Spain",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/c/1/5/e/highres_435589502.jpeg",
+            "photo_id": 435589502,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/c/1/5/e/600_435589502.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/1/5/e/thumb_435589502.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Wordpress Enterprise Madrid",
@@ -2237,10 +2699,16 @@
             "wordpress-websites": "WordPress Websites",
             "publicidad-digital": "Publicidad Digital"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Wordpress-Enterprise-Madrid/",
         "ical": "Wordpress-Enterprise-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/highres_438747209.jpeg",
+            "photo_id": 438747209,
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/600_438747209.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/thumb_438747209.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "MadridJUG",
@@ -2255,10 +2723,16 @@
             "mobile-development": "Mobile Development",
             "computer-programming": "Computer programming"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/MadridJUG/",
         "ical": "MadridJUG",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/highres_435811674.jpeg",
+            "photo_id": 435811674,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/600_435811674.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/thumb_435811674.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Mozilla Meetup",
@@ -2270,10 +2744,16 @@
             "firefox": "Firefox",
             "firefox-os": "Firefox OS"
         },
-        "location": "Europe/Madrid",
+        "location": "Madrid",
         "web": "http://www.meetup.com/Mozilla-Meetup/",
         "ical": "Mozilla-Meetup",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/1/5/f/2/highres_436325618.jpeg",
+            "photo_id": 436325618,
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/1/5/f/2/600_436325618.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/1/5/f/2/thumb_436325618.jpeg"
+        },
         "type": "meetup"
     }]
 }
