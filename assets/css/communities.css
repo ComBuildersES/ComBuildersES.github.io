@@ -15,7 +15,7 @@
 	width: 100%;
 	border-top: 1px solid #ccc;
 }
-#community-list li .footer a{color: white;font-weight: 600;}
+#community-list li .footer a{color: white;font-weight: 600;text-shadow: 0px 0px 3px #000;}
 
 .flip-container {
   -webkit-perspective: 1000;
