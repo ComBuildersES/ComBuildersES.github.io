@@ -26,7 +26,7 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="index.html">Home</a></li>
 								<!--<li>
 									<a href="#">Calendario</a>
 									<ul>
@@ -51,113 +51,21 @@
 								<li><a href="two-sidebar.html">Two Sidebar</a></li>
 								-->
 								<li><a href="no-sidebar.html">Calendario</a></li>
-								<li><a href="directorio.html">Directorio</a></li>
+								<li class="current"><a href="directorio.html">Directorio</a></li>
 								
 							</ul>
 						</nav>
 
 				</div>
 
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2><em>Existen más de 100 comunidades tecnologicas en España, ¿lo sabías?</em></h2>
-						<a href="#" class="button">Ver comunidades</a>
-					</header>
-				</section>
-
-			<!-- Highlights -->
+			<!-- Main -->
 				<section class="wrapper style1">
 					<div class="container">
-						<div class="row 200%">
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-paper-plane"></i>
-									<h3>This Is Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-pencil"></i>
-									<h3>Also Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-wrench"></i>
-									<h3>Probably Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
+						<div id="content">
 
-			<!-- Gigantic Heading -->
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>A gigantic heading you can use for whatever</h2>
-							<p>With a much smaller subtitle hanging out just below it</p>
-						</header>
-					</div>
-				</section>
+							
 
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The First Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Second Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
 						</div>
-						<div class="row">
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Third Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Fourth Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>Are you ready to continue your quest?</h2>
-							<a href="#" class="button">Insert Coin</a>
-						</header>
 					</div>
 				</section>
 
@@ -244,6 +152,16 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jsrender.min.js"></script>
+			<script src="assets/js/directory.js"></script>
 
+			<script id="itemTmpl" type="text/x-jsrender">
+			<li>
+				  {{if photo && photo.thumb_link}}
+						<img src="{{:photo.thumb_link}}">
+					{{/if}}
+					{{:name}}
+			</li>
+			</script>
 	</body>
 </html>
