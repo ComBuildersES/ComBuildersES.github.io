@@ -987,6 +987,11 @@
         "web": "http://www.meetup.com/Factoria-Startup-Idea-viable-Equipo-solido-Beta-Funcional/",
         "ical": "Factoria-Startup-Idea-viable-Equipo-solido-Beta-Funcional",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/member/4/a/2/6/highres_140718982.jpeg",
+            "photo_link": "http://photos3.meetupstatic.com/photos/member/4/a/2/6/highres_140718982.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/member/4/a/2/6/highres_140718982.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Ciudad Real JS",
@@ -1172,6 +1177,11 @@
         "web": "http://www.meetup.com/canasbloggers/",
         "ical": "canasbloggers",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg",
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "DesignerPills",
@@ -1188,6 +1198,11 @@
         "web": "http://www.meetup.com/Designerpills/",
         "ical": "Designerpills",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos2.meetupstatic.com/photos/event/c/1/4/600_306663092.jpeg",
+            "photo_link": "http://photos2.meetupstatic.com/photos/event/c/1/4/600_306663092.jpeg",
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/c/1/4/600_306663092.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Code Club España",
@@ -1257,6 +1272,11 @@
         "web": "http://www.meetup.com/MAD-for-OpenStack/",
         "ical": "MAD-for-OpenStack",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/theme_head/a/d/d/6/full_4304502.jpeg",
+            "photo_link": "http://photos4.meetupstatic.com/photos/theme_head/a/d/d/6/full_4304502.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/theme_head/a/d/d/6/full_4304502.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Madrid Smalltalk User Group",
@@ -1616,6 +1636,11 @@
         "web": "http://www.meetup.com/madrid-devops/",
         "ical": "madrid-devops",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg",
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Com. Tecnológicas Madrid",
@@ -1631,6 +1656,11 @@
         "web": "http://www.meetup.com/Comunidades-Tecnologicas-Madrid/",
         "ical": "Comunidades-Tecnologicas-Madrid",
         "twitter": null,
+        "photo": {
+            "highres_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg",
+            "photo_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg",
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg"
+        },
         "type": "meetup"
     }, {
         "name": "Test Tube Madrid",

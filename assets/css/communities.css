@@ -1,3 +1,6 @@
+small{
+	font-size: .9rem;
+}
 #community-list{display: flex;flex-wrap: wrap;}
 
 #community-list li{
@@ -5,6 +8,7 @@
 	margin: 1%;
 	border: 1px solid #ccc;
 }
+
 #community-list li .footer{
 	background-color: rgba(54,190,249,.6);
 	font-size: .9rem;
@@ -39,7 +43,11 @@
 	height: 200px;
 }
 .back {
-	height: 198px;
+	height: 165px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	line-height: 1.47rem;
 }
 
 .flipper {
