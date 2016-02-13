@@ -1821,12 +1821,13 @@
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		color: white;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+
 	}
 
 		a:hover {
 			color: white;
 			border-bottom-color: transparent;
+			border-bottom: dotted 1px;
 		}
 
 	strong, b {
