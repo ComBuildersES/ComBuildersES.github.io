@@ -159,20 +159,19 @@
   <script src="assets/js/directory.js"></script>
 
   <script id="itemTmpl" type="text/x-jsrender">
-      <li class="flip-container" ontouchstart="this.classList.toggle('hover');">
-          <div class="flipper">
-            <div class="front {{if photo && photo.cover}}front-cover{{/if}}"
-              data-community="{{:name}}"
-              data-tags="{{props tags}}{{:prop}},{{/props}}"
-              {{if photo && photo.photo_link}}style="background-image: url({{:photo.photo_link}})" {{/if}}>
-            </div>
-          </div>
-          <div class="footer">
-            <a href="{{:web}}" title="Enlace a la web de la comunidad {{:name}}">{{:name}}</a>
-            <br>
-          </div>
-
-      </li>
+    <li class="flip-container"
+      data-community="{{:name}}"
+      data-tags="{{props tags}}{{:prop}},{{/props}}">
+      <div class="flipper">
+        <div class="front {{if photo && photo.cover}}front-cover{{/if}}"
+          {{if photo && photo.photo_link}}style="background-image: url({{:photo.photo_link}})" {{/if}}>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="{{:web}}" title="Enlace a la web de la comunidad {{:name}}">{{:name}}</a>
+        <br>
+      </div>
+    </li>
   </script>
 </body>
 

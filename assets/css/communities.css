@@ -30,6 +30,7 @@ small{
 	margin: 1em 0.5em;
 	border: 1px solid rgba(51, 51, 51, 0.25);
 	width: 20vmax;
+	background-color: #fff;
 }
 
 .flipper {
@@ -82,4 +83,16 @@ small{
 }
 .front-cover {
 	background-size: cover;
+}
+
+.selected {
+	-webkit-transform: scale3d(1.2,1.2,0.9);
+	        transform: scale3d(1.2,1.2,0.9);
+	z-index: 4;
+
+}
+.unselected {
+	-webkit-filter : grayscale(100%) blur(2px);
+	        filter : grayscale(100%) blur(2px);
+	z-index: 1;
 }
