@@ -84,7 +84,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/highres_138052302.jpeg",
             "photo_id": 138052302,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/600_138052302.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/thumb_138052302.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/c/4/e/thumb_138052302.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -107,7 +108,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/4/7/2/4/highres_295518212.jpeg",
             "photo_id": 295518212,
             "photo_link": "http://photos2.meetupstatic.com/photos/event/4/7/2/4/600_295518212.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/7/2/4/thumb_295518212.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/7/2/4/thumb_295518212.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -204,7 +206,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/highres_172477962.jpeg",
             "photo_id": 172477962,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/600_172477962.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/thumb_172477962.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/9/4/4/a/thumb_172477962.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -367,7 +370,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/highres_190686582.jpeg",
             "photo_id": 190686582,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/600_190686582.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/thumb_190686582.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/9/b/6/thumb_190686582.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -450,7 +454,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/9/1/8/e/highres_398377262.jpeg",
             "photo_id": 398377262,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/9/1/8/e/600_398377262.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/1/8/e/thumb_398377262.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/1/8/e/thumb_398377262.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -502,7 +507,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/highres_209209332.jpeg",
             "photo_id": 209209332,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/600_209209332.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/thumb_209209332.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/c/0/b/4/thumb_209209332.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -680,7 +686,8 @@
             "highres_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/highres_226373712.jpeg",
             "photo_id": 226373712,
             "photo_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/600_226373712.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/thumb_226373712.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/1/d/0/thumb_226373712.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -882,7 +889,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/d/2/3/e/highres_295253822.jpeg",
             "photo_id": 295253822,
             "photo_link": "http://photos2.meetupstatic.com/photos/event/d/2/3/e/600_295253822.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/2/3/e/thumb_295253822.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/2/3/e/thumb_295253822.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -904,7 +912,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/highres_268661242.jpeg",
             "photo_id": 268661242,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/600_268661242.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/thumb_268661242.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/a/1/1/a/thumb_268661242.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -962,7 +971,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/highres_269400812.jpeg",
             "photo_id": 269400812,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/600_269400812.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/thumb_269400812.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/3/2/c/thumb_269400812.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1012,7 +1022,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/highres_279018772.jpeg",
             "photo_id": 279018772,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/600_279018772.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/thumb_279018772.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/9/5/4/thumb_279018772.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1068,7 +1079,8 @@
             "highres_link": "http://photos2.meetupstatic.com/photos/event/e/6/9/8/highres_288719032.jpeg",
             "photo_id": 288719032,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/e/6/9/8/600_288719032.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/e/6/9/8/thumb_288719032.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/e/6/9/8/thumb_288719032.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1151,7 +1163,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/highres_433316209.jpeg",
             "photo_id": 433316209,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/600_433316209.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/thumb_433316209.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/d/b/9/1/thumb_433316209.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1180,7 +1193,8 @@
         "photo": {
             "highres_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg",
             "photo_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/8/b/3/a/600_325715642.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1247,7 +1261,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/highres_422173772.jpeg",
             "photo_id": 422173772,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/600_422173772.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/thumb_422173772.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/3/5/c/c/thumb_422173772.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1299,7 +1314,8 @@
             "highres_link": "http://photos2.meetupstatic.com/photos/event/8/8/e/c/highres_332975052.jpeg",
             "photo_id": 332975052,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/8/8/e/c/600_332975052.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/8/8/e/c/thumb_332975052.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/8/8/e/c/thumb_332975052.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1328,7 +1344,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/4/6/d/4/highres_330318132.jpeg",
             "photo_id": 330318132,
             "photo_link": "http://photos2.meetupstatic.com/photos/event/4/6/d/4/600_330318132.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/6/d/4/thumb_330318132.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/4/6/d/4/thumb_330318132.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1384,7 +1401,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/highres_328834062.jpeg",
             "photo_id": 328834062,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/600_328834062.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/thumb_328834062.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/0/e/thumb_328834062.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1432,7 +1450,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/highres_340735522.jpeg",
             "photo_id": 340735522,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/600_340735522.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/thumb_340735522.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/8/e/2/thumb_340735522.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1459,7 +1478,8 @@
             "highres_link": "http://photos2.meetupstatic.com/photos/event/d/b/d/a/highres_334436282.jpeg",
             "photo_id": 334436282,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/d/b/d/a/600_334436282.jpeg",
-            "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/b/d/a/thumb_334436282.jpeg"
+            "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/b/d/a/thumb_334436282.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1519,7 +1539,8 @@
             "highres_link": "http://photos2.meetupstatic.com/photos/event/d/0/9/a/highres_338813402.jpeg",
             "photo_id": 338813402,
             "photo_link": "http://photos2.meetupstatic.com/photos/event/d/0/9/a/600_338813402.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/0/9/a/thumb_338813402.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/d/0/9/a/thumb_338813402.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1639,7 +1660,8 @@
         "photo": {
             "highres_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg",
             "photo_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/7/6/3/e/600_437730270.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1659,7 +1681,8 @@
         "photo": {
             "highres_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg",
             "photo_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/b/2/f/e/highres_372045822.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1761,7 +1784,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/highres_365853932.jpeg",
             "photo_id": 365853932,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/600_365853932.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/thumb_365853932.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/8/4/8/c/thumb_365853932.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1869,7 +1893,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/highres_436911113.jpeg",
             "photo_id": 436911113,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/600_436911113.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/thumb_436911113.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/c/7/a/9/thumb_436911113.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1935,7 +1960,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/highres_442340351.jpeg",
             "photo_id": 442340351,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/600_442340351.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/thumb_442340351.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/f/7/f/thumb_442340351.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -1976,7 +2002,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/highres_442869315.jpeg",
             "photo_id": 442869315,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/600_442869315.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/thumb_442869315.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/2/4/6/3/thumb_442869315.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -2623,7 +2650,8 @@
             "highres_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/highres_434841357.jpeg",
             "photo_id": 434841357,
             "photo_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/600_434841357.jpeg",
-            "thumb_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/thumb_434841357.jpeg"
+            "thumb_link": "http://photos1.meetupstatic.com/photos/event/5/3/6/d/thumb_434841357.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -2648,7 +2676,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/highres_435198505.jpeg",
             "photo_id": 435198505,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/600_435198505.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/thumb_435198505.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/8/4/9/thumb_435198505.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -2737,7 +2766,8 @@
             "highres_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/highres_438747209.jpeg",
             "photo_id": 438747209,
             "photo_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/600_438747209.jpeg",
-            "thumb_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/thumb_438747209.jpeg"
+            "thumb_link": "http://photos4.meetupstatic.com/photos/event/6/a/4/9/thumb_438747209.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
@@ -2761,7 +2791,8 @@
             "highres_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/highres_435811674.jpeg",
             "photo_id": 435811674,
             "photo_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/600_435811674.jpeg",
-            "thumb_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/thumb_435811674.jpeg"
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/7/b/b/a/thumb_435811674.jpeg",
+            "cover": true
         },
         "type": "meetup"
     }, {
