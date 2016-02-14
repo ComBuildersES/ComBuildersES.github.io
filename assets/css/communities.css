@@ -96,3 +96,7 @@ small{
 	        filter : grayscale(100%) blur(2px);
 	z-index: 1;
 }
+
+.removed {
+	display:none;
+}
