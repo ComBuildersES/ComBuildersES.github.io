@@ -2816,5 +2816,33 @@
             "thumb_link": "http://photos2.meetupstatic.com/photos/event/1/5/f/2/thumb_436325618.jpeg"
         },
         "type": "meetup"
+    }, {
+        "name": "Google Developer Group Madrid",
+        "description": "<p>El <b>Google Developers Group de Madrid</b> es un grupo sin ánimo de lucro, formado por desarrolladores de <b>Madrid</b> que tienen el objetivo de aprender e intercambiar conocimientos y experiencias acerca de las <b>tecnologías de Google</b>.&nbsp;</p>\r\n<p>La participación es abierta y gratuita, tanto para usuarios, <b>desarrolladores experimentados, diseñadores y organizaciones </b>en general interesadas en utilizar tecnologías Google en sus proyectos. Pero, en el grupo hay sitio para cualquier otra tecnología a parte de <b>Android, GAE, Google TV, Google+, Google APIs</b>, y en general, de <b>cualquiera que alguien tenga conocimiento y quiera compartir</b> con los demás.&nbsp;</p>\r\n<p> <br></p>\n<p><i><b>Disclaimer:</b> GDG Madrid is an independent group; our activities and the opinions expressed on this <a href=\"https://plus.google.com/u/0/communities/106561953391669938292\">+Page</a> should in no way be linked to Google, the corporation.</i></p>",
+        "tags": {
+            "opensource": "Open Source",
+            "web-development": "Web Development",
+            "google": "Google",
+            "web-development": "Web Development",
+            "cloud-computing": "Cloud Computing",
+            "big-data": "Big Data",
+            "android-developers": "Android Development",
+            "android": "Android",
+            "mobile-development": "Mobile Development",
+            "google-developer-group": "Google Developer Group",
+            "gdg": "GDG",
+            "google-cloud-platform": "Google Cloud Platform"
+        },
+        "location": "Madrid",
+        "web": "http://www.meetup.com/es-ES/GDGMadrid/",
+        "ical": "GDGMadrid",
+        "twitter": null,
+        "photo": {
+            "highres_link": "http://photos3.meetupstatic.com/photos/event/e/6/d/2/highres_446339090.jpeg",
+            "photo_id": 250003278,
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/e/6/d/2/600_446339090.jpeg",
+            "thumb_link": "http://photos3.meetupstatic.com/photos/event/e/6/d/2/thumb_446339090.jpeg"
+        },
+        "type": "meetup"
     }]
 }
