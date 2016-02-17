@@ -31,6 +31,8 @@ small{
 	border: 1px solid rgba(51, 51, 51, 0.25);
 	width: 20vmax;
 	background-color: #fff;
+	-webkit-transition: all 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+	transition: all 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 .flipper {
@@ -86,17 +88,23 @@ small{
 }
 
 .selected {
-	-webkit-transform: scale3d(1.2,1.2,0.9);
-	        transform: scale3d(1.2,1.2,0.9);
-	z-index: 4;
+	-webkit-box-flex: 20;
+	-webkit-flex-grow: 20;
+	    -ms-flex-positive: 20;
+	        flex-grow: 20;
 
 }
 .unselected {
-	-webkit-filter : grayscale(100%) blur(2px);
-	        filter : grayscale(100%) blur(2px);
-	z-index: 1;
+
+	-webkit-filter : grayscale(100%);
+	        filter : grayscale(100%);
+	opacity: 0.35;
 }
 
 .removed {
 	display:none;
+}
+
+
+;
 }
