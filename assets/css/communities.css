@@ -105,6 +105,18 @@ small{
 	display:none;
 }
 
+.flexWrapper {
+	display: flex;
+	flex-flow : row wrap;
+	align-items: center;
+	background-color: #333;
+	padding: 1em 0;
+}
 
-;
+.flex-header-item {
+	flex: 0 1 20vw;
+	margin: 0 1em;
+}
+#searchBtn, #showBtn, #resetBtn {
+	font-size: large;
 }
