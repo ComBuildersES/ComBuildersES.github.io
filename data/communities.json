@@ -2273,7 +2273,8 @@
         "twitter": null,
         "type": "meetup",
         "photo": {
-            "photo_link": "http://photos3.meetupstatic.com/photos/event/c/7/d/5/highres_446931157.jpeg"
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/c/7/d/5/highres_446931157.jpeg",
+            "cover": true
         }
     }, {
         "name": "AppleCoding, iOS/OS X Dev.",
