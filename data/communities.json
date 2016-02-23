@@ -2271,7 +2271,10 @@
         "web": "http://www.meetup.com/Innovative-technology-BEEVA/",
         "ical": "Innovative-technology-BEEVA",
         "twitter": null,
-        "type": "meetup"
+        "type": "meetup",
+        "photo": {
+            "photo_link": "http://photos3.meetupstatic.com/photos/event/c/7/d/5/highres_446931157.jpeg"
+        }
     }, {
         "name": "AppleCoding, iOS/OS X Dev.",
         "description": "<p>Encuentros y actividades relacionadas con el desarrollo de apps en entornos Apple, creado por AppleCoding.com, para divulgar la formación y el desarrollo en entornos iOS y OS X, de apps y videojuegos en Objective-C o Swift.</p>",
