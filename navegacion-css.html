@@ -57,8 +57,7 @@
           <li><a href="#">Calendario</a></li>
           <li class="current"><a href="directorio.html">Directorio</a></li>
           <li>
-  
-            <input type="text" placeholder="tecnología" id="search">
+            <input type="text" aria-label="Tecnología" placeholder="tecnología" id="search">
             <style id="search_style"></style>
           </li>
 
@@ -68,86 +67,87 @@
     <!-- Main -->
     <section class="wrapper style1">
       <div class="container">
-          <div id="content">
-              <ul id="community-list">
-              </ul>
-          </div>
+        <div id="content">
+          <div class="aria-status sr-only" role="status" aria-live="assertive"></div>
+          <ul id="community-list" tabindex="-1">
+          </ul>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
     <div id="footer">
-        <div class="container">
-            <div class="row">
-                <section class="3u 6u(narrower) 12u$(mobilep)">
-                    <h2>Links to Stuff</h2>
-                    <ul class="links">
-                        <li><a href="#">Mattis et quis rutrum</a></li>
-                        <li><a href="#">Suspendisse amet varius</a></li>
-                        <li><a href="#">Sed et dapibus quis</a></li>
-                        <li><a href="#">Rutrum accumsan dolor</a></li>
-                        <li><a href="#">Mattis rutrum accumsan</a></li>
-                        <li><a href="#">Suspendisse varius nibh</a></li>
-                        <li><a href="#">Sed et dapibus mattis</a></li>
-                    </ul>
-                </section>
-                <section class="3u 6u$(narrower) 12u$(mobilep)">
-                    <h2>More Links to Stuff</h2>
-                    <ul class="links">
-                        <li><a href="#">Duis neque nisi dapibus</a></li>
-                        <li><a href="#">Sed et dapibus quis</a></li>
-                        <li><a href="#">Rutrum accumsan sed</a></li>
-                        <li><a href="#">Mattis et sed accumsan</a></li>
-                        <li><a href="#">Duis neque nisi sed</a></li>
-                        <li><a href="#">Sed et dapibus quis</a></li>
-                        <li><a href="#">Rutrum amet varius</a></li>
-                    </ul>
-                </section>
-                <section class="6u 12u(narrower)">
-                    <h2>Get In Touch</h2>
-                    <form>
-                        <div class="row 50%">
-                            <div class="6u 12u(mobilep)">
-                                <label for="name">Nombre</label>
-                                <input type="text" name="name" id="name" placeholder="Nombre" />
-                            </div>
-                            <div class="6u 12u(mobilep)">
-                                <label for="email">Correo electrónico</label>
-                                <input type="email" name="email" id="email" placeholder="Correo electrónico" />
-                            </div>
-                        </div>
-                        <div class="row 50%">
-                            <div class="12u">
-                                <label for="message">Mensaje</label>
-                                <textarea name="message" id="message" placeholder="Mensaje" rows="5"></textarea>
-                            </div>
-                        </div>
-                        <div class="row 50%">
-                            <div class="12u">
-                              <input type="submit" class="button alt" value="Enviar mensaje" />
-                            </div>
-                        </div>
-                    </form>
-                </section>
-            </div>
-        </div>
-
-        <!-- Icons -->
-        <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-        </ul>
-
-        <!-- Copyright -->
-        <div class="copyright">
-            <ul class="menu">
-                <li>&copy; Untitled. All rights reserved</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      <div class="container">
+        <div class="row">
+          <section class="3u 6u(narrower) 12u$(mobilep)">
+            <h2>Links to Stuff</h2>
+            <ul class="links">
+              <li><a href="#">Mattis et quis rutrum</a></li>
+              <li><a href="#">Suspendisse amet varius</a></li>
+              <li><a href="#">Sed et dapibus quis</a></li>
+              <li><a href="#">Rutrum accumsan dolor</a></li>
+              <li><a href="#">Mattis rutrum accumsan</a></li>
+              <li><a href="#">Suspendisse varius nibh</a></li>
+              <li><a href="#">Sed et dapibus mattis</a></li>
             </ul>
+          </section>
+          <section class="3u 6u$(narrower) 12u$(mobilep)">
+            <h2>More Links to Stuff</h2>
+            <ul class="links">
+              <li><a href="#">Duis neque nisi dapibus</a></li>
+              <li><a href="#">Sed et dapibus quis</a></li>
+              <li><a href="#">Rutrum accumsan sed</a></li>
+              <li><a href="#">Mattis et sed accumsan</a></li>
+              <li><a href="#">Duis neque nisi sed</a></li>
+              <li><a href="#">Sed et dapibus quis</a></li>
+              <li><a href="#">Rutrum amet varius</a></li>
+            </ul>
+          </section>
+          <section class="6u 12u(narrower)">
+            <h2>Get In Touch</h2>
+            <form>
+              <div class="row 50%">
+                <div class="6u 12u(mobilep)">
+                  <label for="name">Nombre</label>
+                  <input type="text" name="name" id="name" placeholder="Nombre" />
+                </div>
+                <div class="6u 12u(mobilep)">
+                  <label for="email">Correo electrónico</label>
+                  <input type="email" name="email" id="email" placeholder="Correo electrónico" />
+                </div>
+              </div>
+              <div class="row 50%">
+                <div class="12u">
+                  <label for="message">Mensaje</label>
+                  <textarea name="message" id="message" placeholder="Mensaje" rows="5"></textarea>
+                </div>
+              </div>
+              <div class="row 50%">
+                <div class="12u">
+                  <input type="submit" class="button alt" value="Enviar mensaje" />
+                </div>
+              </div>
+            </form>
+          </section>
         </div>
+      </div>
+
+      <!-- Icons -->
+      <ul class="icons">
+        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+      </ul>
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
 
     </div>
 
@@ -164,12 +164,10 @@
   <script src="assets/js/directory.js"></script>
 
   <script id="itemTmpl" type="text/x-jsrender">
-    <li class="flip-container"
-      data-community="{{:name}}"
-      data-tags="{{:name}},{{props tags}}{{:prop}},{{/props}}">
+    <li class="flip-container" data-community="{{:name}}" data-tags="{{:name}},{{props tags}}{{:prop}},{{/props}}">
       <div class="flipper">
-        <div class="front {{if photo && photo.cover}}front-cover{{/if}}"
-          {{if photo && photo.photo_link}}style="background-image: url({{:photo.photo_link}})" {{/if}}>
+        <div class="front {{if photo && photo.cover}}front-cover{{/if}}" {{if photo && photo.photo_link}}style="background-image: url({{:photo.photo_link}})"
+        {{/if}}>
         </div>
       </div>
       <div class="footer">
@@ -178,18 +176,57 @@
       </div>
     </li>
   </script>
-  <script type="text/javascript">
-  var searchStyle = document.getElementById('search_style');
-  document.getElementById('search').addEventListener('input', function() {
-    if (!this.value) {
-      searchStyle.innerHTML = "";
-      return;
-    }
+  <script>
+    var searchStyle = document.getElementById('search_style');
+    var ariaStatus = document.querySelector('.aria-status');
+  
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+    
+    var filterInput = debounce(function(){
+      
+      var elements, result;
+      
+      if (!this.value) {
+        searchStyle.innerHTML = "";
+        ariaStatus.innerHTML = 'Se muestran todas las comunidades';
+        return;
+      }
+      
+      searchStyle.innerHTML = ".flip-container:not([data-tags*=\"" + this.value.toLowerCase() + "\"]) { display:none }";
+  
+      elements = [].slice.call(document.querySelectorAll(".flip-container"));
+      
+      result = elements.filter(function(item){
+        return window.getComputedStyle(item).display !== 'none';
+      });
+      
+      if(result.length > 1) {
+        ariaStatus.innerHTML = 'Se han encontrado ' + result.length + ' comunidades';
+      } else if (result.length === 1) {
+        ariaStatus.innerHTML = 'Se ha encontrado ' + result.length + ' comunidad';
+      } else {
+        ariaStatus.innerHTML = 'No se han encontrado comunidades';
+      }
+      
+      
+    }, 500);
+    
+    document.getElementById('search').addEventListener('keydown', filterInput);
+    
 
-    searchStyle.innerHTML =
-      ".flip-container:not([data-tags*=\"" + this.value.toLowerCase() + "\"]) { display:none }";
-
-  });
   </script>
 
 
