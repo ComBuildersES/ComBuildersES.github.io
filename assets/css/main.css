@@ -1838,7 +1838,7 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table, blockquote {
+	ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
 
@@ -1900,9 +1900,6 @@
 	header p {
 		color: #999;
 		font-size: 1.25em;
-		position: relative;
-		margin-top: -1.25em;
-		margin-bottom: 2.25em;
 	}
 
 	header.major {
@@ -2559,7 +2556,7 @@
 
 	#cta {
 		text-align: center;
-		padding: 3.5em 0;
+		padding: 1.5em 0;
 	}
 
 		#cta header h2 {
@@ -3151,3 +3148,21 @@
 			}
 
 	}
+
+/* BrowserStack support */
+
+#browserstack {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+#browserstack img {
+	flex: 1 0 auto;
+}
+
+#browserstack p {
+	color: #fff;
+	flex: 1 0 auto;
+	font-size: 1.25em;
+}
