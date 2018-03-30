@@ -19,3 +19,8 @@ Herramientas, contenidos y bots creados:
   * [Cuenta de Twitter con eventos @comunidadestech](https://twitter.com/comunidadestech)
   * [Agenda de Betabeers](https://betabeers.com/event/)
 
+Sponsors
+
+![BrowserStack](images/browserstack-logo.svg)
+
+[**BrowserStack**](https://www.browserstack.com/open-source) nos ayuda sin ningún tipo de coste, bajo su [programa de apoyo al Open Source](https://www.browserstack.com/open-source), a realizar pruebas sobre varios dispositivos reales, para mejorar la usabilidad y la correcta visualización de esta web.
