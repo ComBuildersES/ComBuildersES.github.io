@@ -21,6 +21,6 @@ Herramientas, contenidos y bots creados:
 
 Sponsors
 
-![BrowserStack](images/browserstack-logo.svg)
+![BrowserStack](images/bs_logo_black.svg)
 
 [**BrowserStack**](https://www.browserstack.com/open-source) nos ayuda sin ningún tipo de coste, bajo su [programa de apoyo al Open Source](https://www.browserstack.com/open-source), a realizar pruebas sobre varios dispositivos reales, para mejorar la usabilidad y la correcta visualización de esta web.
