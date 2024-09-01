@@ -1,4 +1,4 @@
-# comunidades-tecnologicas.github.io
+# ComBuildersES.github.io
 
 [Comunidad en Meetup](http://www.meetup.com/es/Comunidades-Tecnologicas-Madrid/)
 
