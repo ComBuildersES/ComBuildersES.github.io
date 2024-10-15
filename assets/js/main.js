@@ -82,5 +82,13 @@
 						.css('transition', 'none');
 
 	});
+  
+document.getElementById('submit').addEventListener('click', function(){ 
+  $(this).attr(
+    'href',
+    `mailto:communitybuilders.es@gmail.com?subject=${$('#topic').val()}&body=${$('#message').val()}`);
+  console.log($(this)[0].action);
+}, false);
+  
 
 })(jQuery);
