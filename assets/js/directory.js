@@ -1,4 +1,21 @@
 'use strict';
+let filter = null;
+let value = null;
+$(document).on('click', '.dropdown-menu label', function (e) {
+  e.stopPropagation();
+  
+  if(e.target.querySelector("input")){
+    console.log(`${e.target.innerText}=${e.target.querySelector("input").checked}`)
+    // debugger
+    filter = e.target.parentElement.parentElement.dataset.filter;
+    value = e.target.innerText;
+  }else{
+    const show = e.target.checked;
+    document.querySelectorAll(`.flip-container[${filter}="${value}"]`).forEach(e=>{
+      e.style.display = show? "flex": "none";
+    })
+  }
+});
 
 function shuffle(array) {
   let currentIndex = array.length;

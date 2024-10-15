@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="assets/css/communities.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 </head>
 
 <body>
@@ -43,6 +44,102 @@
         </nav>
 
     </div>
+    <div class="wrapper">
+      
+      <div class="container acenter">
+        
+        
+        <!-- Tipo de comunidad -->
+        <div class="btn-group dropdown-filter">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tipo de comunidad <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" data-filter="data-tipo-de-comunidad">
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Tech Meetup
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Conferencia
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Organización paraguas
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Hacklab
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Escuela de formación
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Grupo colaborativo
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Grupo de ayuda mutua
+              </label>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Tipos de eventos -->
+
+        <div class="btn-group dropdown-filter">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tipos de eventos <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" data-filter="data-tipo-de-eventos">
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Presencial
+              </label>
+              <label>
+                <input type="checkbox" checked="checked">Online
+              </label>
+              <label>
+                <input type="checkbox" checked="checked">Híbridos
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Estado de la comunidad -->
+
+        <div class="btn-group dropdown-filter">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Estado de la comunidad <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" data-filter="data-estado">
+            <li>
+              <label>
+                <input type="checkbox" checked="checked">Activa
+              </label>
+              <label>
+                <input type="checkbox" checked="checked">Inactiva
+              </label>
+              <label>
+                <input type="checkbox" checked="checked">Desconocido
+              </label>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      
+    </div>
     <!-- Main -->
     <section class="wrapper style1">
       <div class="container">
@@ -57,9 +154,9 @@
   <section id="cta" class="wrapper style3">
     <div class="container">
       <header id="browserstack">
-        <p>¿Falta aquí tu comunidad?</p>
+        <p>¿Echas de menos alguna comunidad o ver algún error?</p>
       </header>
-      <a href="https://docs.google.com/spreadsheets/d/18Rf0-3sREFosw__tQYaUmtzJNL3M-PLsm-HIqENf2Yw/edit?usp=sharing" target="_blank" class="button">AÑÁDELA A ESTE SPREADSHEET</a>
+      <a href="https://docs.google.com/spreadsheets/d/18Rf0-3sREFosw__tQYaUmtzJNL3M-PLsm-HIqENf2Yw/edit?usp=sharing" target="_blank" class="button">CORRÍGELO EN ESTE SPREADSHEET</a>
     </div>
   </section>
 
@@ -91,7 +188,7 @@
             <h3>Contáctanos</h3>
             <form id="sendEmail">
               <div class="row 100%">
-                <div class="12u 12u(mobilep)">
+                <div class="12u 12u(mobilep)" style="padding-top:0;padding-left:1em">
                   <input type="text" name="topic" id="topic" placeholder="Asunto" />
                 </div>
               </div>
@@ -141,10 +238,15 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/jsrender.min.js"></script>
   <script src="assets/js/directory.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
 
   <script id="itemTmpl" type="text/x-jsrender">
     <li class="flip-container"
       data-community="{{:Comunidad}}"
+      data-estado="{{:Estado}}"
+      data-tipo-de-comunidad="{{:Tipo_de_comunidad}}"
+      data-tipo-de-eventos="{{:Tipo_de_eventos}}"
       data-tags="{{props tags}}{{:prop}},{{/props}}">
       <div class="flipper">
         <div class="front {{if Miniatura}}front-cover{{/if}}"
