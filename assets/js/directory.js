@@ -64,7 +64,6 @@ function shuffle(array) {
 
   function initApp(){
     communities = [...document.querySelectorAll('.flip-container')]
-    //data = data.filter(e => e.Estado == "Activa");
     filterCards("data-estado", "Inactiva", false);
     filterCards("data-estado", "Desconocido", false);
   }
