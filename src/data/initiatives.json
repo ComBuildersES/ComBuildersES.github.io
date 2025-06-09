@@ -1,0 +1,82 @@
+{
+  "initiatives": [
+    {
+      "id": "meeting-point",
+      "title": {
+        "en": "🗣️ Meeting point",
+        "es": "🗣️ Punto de encuentro"
+      },
+      "description": {
+        "en": "Facilitate networking (online and in person), the exchange of experiences, and mutual assistance among people who energize communities.",
+        "es": "<strong>Objetivo</strong>: Facilitar el networking (online y presencial), el intercambio de experiencias y la ayuda mutua entre personas que dinamizan comunidades."
+      },
+      "image": "./images/meeting-point.webp",
+      "link": "https://github.com/ComBuildersES/punto-de-encuentro"
+    },
+    {
+      "id": "communities-directory",
+      "title": {
+        "en": "🔍 Communities directory",
+        "es": "🔍 Directorio de comunidades"
+      },
+      "description": {
+        "en": "Website that brings together more than 500 tech communities in Spain and other Spanish-speaking countries (online).",
+        "es": "<strong>Objetivo</strong>: Crear el mayor directorio (open data) de comunidades tech presenciales y online, y una interfaz web para poder explorarlo."
+      },
+      "image": "./images/communities-directory.webp",
+      "link": "https://github.com/ComBuildersES/communities-directory"
+    },
+    {
+      "id": "we-chat-with-community-builders",
+      "title": {
+        "en": "🎙️ We chat with community builders",
+        "es": "🎙️ Charlamos con Community Builders"
+      },
+      "description": {
+        "en": "Podcasts and videos to learn more about the people who make up Community Builders and the communities they represent.",
+        "es": "<strong>Objetivo</strong>: Compartir las experiencias de las personas que forman Community Builders y las comunidades a las que representan en formato podcast y vídeo."
+      },
+      "image": "./images/we-chat-with-community-builders.webp",
+      "link": "https://github.com/ComBuildersES/charlamos-con-community-builders"
+    },
+    {
+      "id": "awesome-list",
+      "title": {
+        "en": "⚒️ Awesome list",
+        "es": "⚒️ Awesome list"
+      },
+      "description": {
+        "en": "Compilation of useful resources for people who manage communities (e.g., tools for managing tickets, social media, receiving funding, shared calendars, etc.).",
+        "es": "<strong>Objetivo</strong>: Recopilar recursos útiles para personas que gestionan comunidades (ej: herramientas para gestionar eventos, tickets, redes sociales, recibir financiación, ...)."
+      },
+      "image": "./images/awesome-list.webp",
+      "link": "https://github.com/ComBuildersES/awesome-community-builders"
+    },
+    {
+      "id": "event-formats",
+      "title": {
+        "en": "💡 Event formats",
+        "es": "💡 Formatos de eventos"
+      },
+      "description": {
+        "en": "Compilation of over 20 different event dynamics: open space, coding dojo, peer reviews, round tables, pizza nights, AMA, etc.",
+        "es": "<strong>Objetivo</strong>: Recopilar y documentar diferentes dinámicas de eventos (open space, coding dojo, peer reviews, mesas redondas, pizza nights, AMA, etc.) evitar caer en la monotonía."
+      },
+      "image": "./images/event-formats.webp",
+      "link": "https://github.com/ComBuildersES/formatos-para-eventos"
+    },
+    {
+      "id": "survey-of-potential-audience",
+      "title": {
+        "en": "📊 Survey of potential audience",
+        "es": "📊 Encuesta a público potencial"
+      },
+      "description": {
+        "en": "Survey and results (open access) to find out how best to reach the target audience of technology communities.",
+        "es": "<strong>Objetivo</strong>: Conocer cómo llegar mejor al público objetivo de las comunidades tecnológicas (encuesta y resultados públicos)."
+      },
+      "image": "./images/survey-of-potential-audience.webp",
+      "link": "https://github.com/ComBuildersES/estudio-publico-objetivo"
+    }
+  ]
+} 

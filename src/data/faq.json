@@ -1,0 +1,59 @@
+{
+    "faq": [
+        {
+            "id": "how-to-join",
+            "question": {
+                "en": "Who can join the community and how?",
+                "es": "¿Quién puede unirse a la comunidad y cómo?"
+            },
+            "answer": {
+                "en": "Anyone who leads (or has led) a Spanish-speaking tech community, aligned with <a href=\"https://github.com/ComBuildersES/com-builders-es/blob/main/CODE_OF_CONDUCT.md\">our way of working</a> and is familiar (or willing to be) with GitHub. To do so, simply fill out <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd5Idc1wG2uhHBT11veYVx6JUfrvb_ylc1WC0ZfuXykvm1rtw/viewform\">this form</a>.",
+                "es": "Cualquier persona que dinamice (o haya dinamizado) una comunidad tech de habla hispana, alineada con <a href=\"https://github.com/ComBuildersES/com-builders-es/blob/main/CODE_OF_CONDUCT.md\">nuestra forma de funcionar</a> y esté familiarizada (o dispuesta a estarlo) con GitHub. Para ello, simplemente debe rellenar <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd5Idc1wG2uhHBT11veYVx6JUfrvb_ylc1WC0ZfuXykvm1rtw/viewform\">este formulario</a>."
+            }
+        },
+        {
+            "id": "what-is-a-tech-community",
+            "question": {
+                "en": "What do we consider a tech community?",
+                "es": "¿Qué consideramos una comunidad tech?"
+            },
+            "answer": {
+                "en": "A group of people who gather around technology (software, hardware, data, etc.) to share knowledge, learn together, collaborate, and support one another. Additionally: <ul> <li><p><strong>It is open</strong>, accessible to new people.</p></li> <li><p><strong>It has real activity</strong>, organizing meetups, discussions, projects, etc.</p></li> <li><p><strong>It is based on community values</strong>, such as mutual support, respect, and intrinsic motivation.</p></li> </ul> <p>It can take many forms (in-person or online, local or global, thematic or cross-cutting), but it always puts people and the connections between them at the center.</p> <p>That said, we acknowledge there are <a href=\"https://github.com/ComBuildersES/communities-directory/issues/62\">grey areas</a> that should be considered on a case-by-case basis.</p>",
+                "es": "A un grupo de personas que se reúnen en torno a la tecnología (software, hardware, datos, etc.) para compartir conocimiento, aprender juntas, colaborar y apoyarse mutuamente. Además: <ul><li><p><strong>Es abierta</strong>, accesible a nuevas personas.</p> </li> <li><p><strong>Tiene actividad real</strong>, organiza encuentros, debates, proyectos, etc.</p> </li> <li><p><strong>Se basa en valores comunitarios</strong>, como la ayuda mutua, el respeto y la motivación intrínseca.</p> </li> </ul> <p>Puede adoptar muchas formas (presencial u online, local o global, temática o transversal), pero siempre pone en el centro a las personas y el vínculo entre ellas.</p> <p>Dicho esto, reconocemos que hay <a href=\"https://github.com/ComBuildersES/communities-directory/issues/62\">zonas grises</a> que se deben valorar caso a caso</p>"
+            }
+        },
+        {
+            "id": "if-i-dont-organize-a-tech-community",
+            "question": {
+                "en": "If I don't run a tech community, can I still participate?",
+                "es": "Si no dinamizo una comunidad tech, ¿puedo participar?"
+            },
+            "answer": {
+                "en": "Of course. Each repository has a <a href=\"https://github.com/ComBuildersES/communities-directory/blob/main/CONTRIBUTING.md\">CONTRIBUTING.md file</a> explaining the different ways to contribute to the initiatives.",
+                "es": "Por supuesto. En cada repositorio hay un <a href=\"https://github.com/ComBuildersES/communities-directory/blob/main/CONTRIBUTING.md\">fichero CONTRIBUTING.md</a> donde se explican las diferentes formas de contribuir a las iniciativas."
+            }
+        },
+        {
+            "id": "minimum-commitment",
+            "question": {
+                "en": "Is there a minimum commitment?",
+                "es": "¿Hay algún compromiso mínimo?"
+            },
+            "answer": {
+                "en": "No, although community members are expected to want to collaborate out of intrinsic motivation in the initiatives (as much as possible), there is no minimum commitment.",
+                "es": "No, aunque se espera que los miembros de la comunidad quieran colaborar por motivación intrínseca en las iniciativas (en la medida de lo posible), no hay ningún compromiso mínimo."
+            }
+        },
+        {
+            "id": "contribute",
+            "question": {
+                "en": "Does Community Builders have a legal entity?",
+                "es": "¿Tiene Community Builders una entidad jurídica?"
+            },
+            "answer": {
+                "en": "No, we are a collective, a grassroots movement, non-profit, independent (we are not linked to any brand/company), we have no legal structure or associated legal entity.",
+                "es": "No, somos un colectivo, un movimiento de bases (grassroot), sin ánimo de lucro, independientes (no estamos vinculados a ninguna marca/empresa), no tenemos estructura legal ni entidad jurídica asociada."
+            }
+        }
+    ]
+} 
