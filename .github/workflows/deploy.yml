@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # o master, dependiendo de tu rama principal
+  workflow_dispatch:  # Permite ejecutar el workflow manualmente
+
+permissions:
+  contents: write  # Necesario para hacer push a gh-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist  # La carpeta que contiene los archivos a desplegar
+          branch: gh-pages  # La rama a la que se desplegará
+          clean: true  # Elimina archivos antiguos antes de desplegar 
