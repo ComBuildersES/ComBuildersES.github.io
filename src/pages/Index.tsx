@@ -364,7 +364,7 @@ const Index = () => {
             <div className="relative">
             <a href="https://combuilderses.github.io/communities-directory/" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="./images/communities-directory.jpg"
+                  src="./images/communities-directory.webp"
                   alt="Tech communities map"
                   className="rounded-2xl shadow-2xl w-full h-auto"
                 />
