@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/vibrant-community-reveal/' : '/',
+  base: mode === 'production' ? '/' : '/',
   build: {
     assetsDir: 'assets',
     rollupOptions: {
