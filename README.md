@@ -1,9 +1,31 @@
-# Web de Community Buiilders
+# Web de Community Builders
 
-Proyecto web que debería servir como carta de presentación de la comunidad, para ayudar a explicar quienes somos y qué hacemos, cómo unirse, qué se está haciendo, y darle visibilidad a los recursos/proyectos que vayamos creando.
+Carta de presentación de la comunidad cuyo fin es:
+* Ayudar a explicar quienes somos y qué hacemos
+* Cómo unirse, qué se está haciendo
+* Darle visibilidad a las iniciativas en las que colaboramos
 
 # Contribuye
 
-De momento se ha reutilizado una web antigua pero nos gustaría cambiarlo por algo mucho más profesional. 
+Si quieres ayudarnos a mejorar la web te animas [revisa la guía de contribución](./CONTRIBUTING.md).
 
-Estamos buscando personas que se animen a contribuir. Si te animas [escríbenos aquí](https://github.com/ComBuildersES/ComBuildersES.github.io/issues/20)
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.rauljimenez.info"><img src="https://avatars.githubusercontent.com/u/826965?v=4?s=100" width="100px;" alt="Raul Jimenez Ortega"/><br /><sub><b>Raul Jimenez Ortega</b></sub></a><br /><a href="#projectManagement-hhkaos" title="Project Management">📆</a> <a href="#data-hhkaos" title="Data">🔣</a> <a href="#doc-hhkaos" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Las instrucciones para añadirte o añadir emojis de contribución a tu nombre están [en este *issue*](https://github.com/ComBuildersES/communities-directory/issues/22). 
