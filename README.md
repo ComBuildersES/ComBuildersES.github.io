@@ -9,6 +9,9 @@ Carta de presentación de la comunidad cuyo fin es:
 
 Si quieres ayudarnos a mejorar la web te animas [revisa la guía de contribución](./CONTRIBUTING.md).
 
+Echa un vistazo a algunas de las tareas por las que podrías empezar a ayudar: 
+
+[![GitHub issues by-label](https://img.shields.io/github/issues/ComBuildersES/ComBuildersES.github.io/good%20first%20issue)](https://github.com/ComBuildersES/ComBuildersES.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ## Contributors
 
