@@ -194,7 +194,7 @@ const Index = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
                 <a 
-                  href="https://github.com/orgs/ComBuildersES/discussions/categories/novedades"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd5Idc1wG2uhHBT11veYVx6JUfrvb_ylc1WC0ZfuXykvm1rtw/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 border border-border text-foreground font-medium rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
