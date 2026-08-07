@@ -496,7 +496,7 @@ const Index = () => {
       </section>
 
       {/* Events Section */}
-      <section id="events" className="scroll-mt-16 py-20 bg-muted/30 animate-on-scroll">
+      <section id="events" className="relative z-20 scroll-mt-16 py-20 bg-muted/30 animate-on-scroll">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
             <div className="max-w-3xl">
@@ -566,7 +566,7 @@ const Index = () => {
                   />
                 </button>
                 {isIcsMenuOpen && (
-                  <div className="absolute left-0 top-full z-20 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
+                  <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
                     <a
                       href={googleCalendarUrl}
                       target="_blank"
