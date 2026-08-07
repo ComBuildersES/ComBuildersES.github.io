@@ -531,6 +531,7 @@ const Index = () => {
               feed={eventsFeedUrl}
               limit="12"
               layout={eventsLayout}
+              show-past
               fields="image,when,location,attendance,description,tags,organizer"
               theme="light"
               lang={language}
