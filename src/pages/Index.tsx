@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ArrowRight, Users, Code, MapPin, Github, Youtube, Linkedin, MessageSquare, Mail, Menu, X, ChevronDown } from 'lucide-react';
+import { ArrowRight, Users, MapPin, Github, Youtube, Linkedin, MessageSquare, Mail, Menu, X, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSelector from '../components/LanguageSelector';
 import { Carousel, CarouselContent, CarouselItem, CarouselApi } from '../components/ui/carousel';
@@ -115,6 +115,7 @@ const Index = () => {
   ];
 
   const displayedMembers = showAllMembers ? members : members.slice(0, 8);
+  const logoClasses = "rounded-full ring-1 ring-border/70 shadow-sm";
 
   return (
     <div className="min-h-screen bg-background">
@@ -123,7 +124,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <Code className="h-8 w-8 text-primary" />
+              <img
+                src="/community-builders-logo.png"
+                alt="Community Builders"
+                className={`h-9 w-9 ${logoClasses}`}
+              />
               <span className="text-xl font-bold text-foreground">Community Builders</span>
             </div>
             
@@ -462,7 +467,11 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <Code className="h-6 w-6 text-primary" />
+                <img
+                  src="/community-builders-logo.png"
+                  alt="Community Builders"
+                  className={`h-7 w-7 ${logoClasses}`}
+                />
                 <span className="text-lg font-bold text-foreground">Community Builders</span>
               </div>
               <p className="text-muted-foreground text-sm">
