@@ -14,7 +14,7 @@ const Index = () => {
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [members, setMembers] = useState<any[]>([]);
+  const [members, setMembers] = useState<ReturnType<typeof processMemberData>[]>([]);
   const [showAllMembers, setShowAllMembers] = useState(false);
   const { t, language } = useLanguage();
 
