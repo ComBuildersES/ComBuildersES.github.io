@@ -468,6 +468,18 @@ const Index = () => {
               <p className="text-muted-foreground text-sm">
                 {t('footer.description')}
               </p>
+              <a
+                href="https://opentechevents.org#support"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex mt-4"
+              >
+                <img
+                  src="https://opentechevents.org/badge/ote-supporter.svg"
+                  alt="OTE: supporter"
+                  className="h-6 w-auto"
+                />
+              </a>
             </div>
             
             <div>
