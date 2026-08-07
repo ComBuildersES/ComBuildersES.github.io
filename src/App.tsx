@@ -9,9 +9,15 @@ import Links from "./pages/Links";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+const sectionHashIds = new Set(["home", "initiatives", "people", "events", "communities", "faq", "contact"]);
 
 const getHashPath = () => {
   const hashPath = window.location.hash.replace(/^#/, "");
+
+  if (sectionHashIds.has(hashPath)) {
+    return "/";
+  }
+
   return hashPath || "/";
 };
 

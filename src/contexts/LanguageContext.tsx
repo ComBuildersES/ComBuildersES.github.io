@@ -25,6 +25,7 @@ const translations = {
     'nav.initiatives': 'Initiatives',
     'nav.people': 'People',
     'nav.communities': 'Communities',
+    'nav.events': 'Events',
     'nav.newsletters': 'News',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
@@ -76,6 +77,17 @@ const translations = {
     'contact.title': 'Get in Touch',
     'contact.description': 'Do you have questions or want to get involved? We would love to hear from you!',
     'contact.btn': 'Contact us',
+
+    // Events Page
+    'events.title': 'Community Builders meetups',
+    'events.description': 'Upcoming meetups, conversations and collaborations.',
+    'events.layout.calendar': 'Calendar',
+    'events.layout.list': 'List',
+    'events.layout.cards': 'Cards',
+    'events.poweredBy': 'Subscriptions and embeddable <a href="https://tools.opentechevents.org/embed" target="_blank" rel="noopener noreferrer">widget</a> available thanks to <a href="https://github.com/OpenTechEvents/opentechevents-spec" target="_blank" rel="noopener noreferrer">OpenTechEvents</a>.',
+    'events.subscribeGoogle': 'Subscribe with Google Calendar',
+    'events.subscribeOutlook': 'Subscribe with Outlook',
+    'events.downloadIcs': 'Open/download ICS',
     
     // Footer
     'footer.description': 'We are a collective that brings together people who energize Spanish-speaking tech communities with the aim of being a reference place where collaboration and exchange of experiences are facilitated.',
@@ -90,6 +102,7 @@ const translations = {
     'nav.initiatives': 'Iniciativas',
     'nav.people': 'Personas',
     'nav.communities': 'Comunidades',
+    'nav.events': 'Eventos',
     'nav.newsletters': 'Novedades',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contacto',
@@ -141,6 +154,17 @@ const translations = {
     'contact.title': 'Ponte en contacto',
     'contact.description': '¿Tienes preguntas o quieres involucrarte? ¡Nos encantaría saber de ti!',
     'contact.btn': 'Contáctanos',
+
+    // Events Page
+    'events.title': 'Encuentros de Community Builders',
+    'events.description': 'Próximos encuentros, conversaciones y colaboraciones.',
+    'events.layout.calendar': 'Calendario',
+    'events.layout.list': 'Lista',
+    'events.layout.cards': 'Tarjetas',
+    'events.poweredBy': 'Suscripciones y <a href="https://tools.opentechevents.org/embed" target="_blank" rel="noopener noreferrer">widget</a> embebible disponibles gracias a <a href="https://github.com/OpenTechEvents/opentechevents-spec" target="_blank" rel="noopener noreferrer">OpenTechEvents</a>.',
+    'events.subscribeGoogle': 'Suscribirse con Google Calendar',
+    'events.subscribeOutlook': 'Suscribirse con Outlook',
+    'events.downloadIcs': 'Abrir/descargar ICS',
     
     // Footer
     'footer.description': 'Somos un colectivo que reúne a personas que dinamizan comunidades tech de habla hispana con el objetivo de ser un lugar de referencia donde se facilite la colaboración y el intercambio de experiencias.',

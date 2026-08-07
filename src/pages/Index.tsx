@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { ArrowRight, Users, MapPin, Github, Youtube, Linkedin, MessageSquare, Mail, Menu, X, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSelector from '../components/LanguageSelector';
@@ -7,7 +7,27 @@ import initiativesData from '../data/initiatives.json';
 import faqData from '../data/faq.json';
 import { fetchMembers, processMemberData } from '../services/members';
 
+const pageSectionIds = ['home', 'initiatives', 'people', 'events', 'communities', 'faq', 'contact'];
+
+const SectionHeading = ({ id, children, className = '' }: { id: string; children: ReactNode; className?: string }) => (
+  <h2 className={`group inline-flex items-baseline gap-2 scroll-mt-24 ${className}`}>
+    <span>{children}</span>
+    <a
+      href={`#${id}`}
+      aria-label={`Enlace directo a ${String(children)}`}
+      className="text-primary opacity-0 transition-opacity hover:text-primary/80 focus:opacity-100 group-hover:opacity-100"
+    >
+      #
+    </a>
+  </h2>
+);
+
 const Index = () => {
+  const eventsFeedUrl = "https://combuilderses.github.io/events/feed.json";
+  const eventsIcsUrl = "https://combuilderses.github.io/events/feed.ics";
+  const eventsRssUrl = "https://combuilderses.github.io/events/feed.xml";
+  const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(eventsIcsUrl)}`;
+  const outlookCalendarUrl = `https://outlook.live.com/calendar/0/addcalendar?url=${encodeURIComponent(eventsIcsUrl)}&name=${encodeURIComponent("Community Builders Events")}`;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
@@ -18,6 +38,9 @@ const Index = () => {
   const [showAllMembers, setShowAllMembers] = useState(false);
   const [memberWindowStart, setMemberWindowStart] = useState(0);
   const [isMemberGridFading, setIsMemberGridFading] = useState(false);
+  const [eventsLayout, setEventsLayout] = useState<'calendar' | 'list' | 'cards'>('calendar');
+  const [isIcsMenuOpen, setIsIcsMenuOpen] = useState(false);
+  const icsMenuRef = useRef<HTMLDivElement>(null);
   const { t, language } = useLanguage();
 
   // Fetch members data
@@ -28,6 +51,20 @@ const Index = () => {
       setMembers(processedMembers);
     };
     loadMembers();
+  }, []);
+
+  useEffect(() => {
+    const scriptId = "ote-events-widget";
+
+    if (document.getElementById(scriptId)) {
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.id = scriptId;
+    script.type = "module";
+    script.src = "https://tools.opentechevents.org/embed/ote-events.js";
+    document.head.append(script);
   }, []);
 
   // Intersection Observer for animations
@@ -41,7 +78,6 @@ const Index = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
-          setActiveSection(entry.target.id || 'home');
         }
       });
     }, observerOptions);
@@ -50,6 +86,41 @@ const Index = () => {
     sections.forEach((section) => observer.observe(section));
 
     return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const updateActiveSection = () => {
+      const viewportTarget = 120;
+      const currentSection = pageSectionIds
+        .map((id) => document.getElementById(id))
+        .filter(Boolean)
+        .find((section) => {
+          const rect = section.getBoundingClientRect();
+          return rect.top <= viewportTarget && rect.bottom > viewportTarget;
+        });
+
+      setActiveSection(currentSection?.id || 'home');
+    };
+
+    updateActiveSection();
+    window.addEventListener('scroll', updateActiveSection, { passive: true });
+    return () => window.removeEventListener('scroll', updateActiveSection);
+  }, []);
+
+  useEffect(() => {
+    const scrollToHashSection = () => {
+      const hash = window.location.hash.replace(/^#/, "");
+
+      if (!pageSectionIds.includes(hash)) {
+        return;
+      }
+
+      document.getElementById(hash)?.scrollIntoView();
+    };
+
+    scrollToHashSection();
+    window.addEventListener('hashchange', scrollToHashSection);
+    return () => window.removeEventListener('hashchange', scrollToHashSection);
   }, []);
 
   // Carousel setup and auto-play
@@ -99,13 +170,31 @@ const Index = () => {
     };
   }, [members.length, showAllMembers]);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+  useEffect(() => {
+    if (!isIcsMenuOpen) {
+      return;
     }
-    setIsMenuOpen(false);
-  };
+
+    const closeIcsMenu = (event: PointerEvent) => {
+      if (!icsMenuRef.current?.contains(event.target as Node)) {
+        setIsIcsMenuOpen(false);
+      }
+    };
+
+    const closeIcsMenuWithKeyboard = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsIcsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener('pointerdown', closeIcsMenu);
+    document.addEventListener('keydown', closeIcsMenuWithKeyboard);
+
+    return () => {
+      document.removeEventListener('pointerdown', closeIcsMenu);
+      document.removeEventListener('keydown', closeIcsMenuWithKeyboard);
+    };
+  }, [isIcsMenuOpen]);
 
   const handleCarouselInteraction = (index: number) => {
     setIsAutoPlaying(false);
@@ -149,6 +238,7 @@ const Index = () => {
     { name: t('nav.home'), id: 'home' },
     { name: t('nav.initiatives'), id: 'initiatives' },
     { name: t('nav.people'), id: 'people' },
+    { name: t('nav.events'), id: 'events' },
     { name: t('nav.communities'), id: 'communities' },
     { name: t('nav.faq'), id: 'faq' },
     { name: t('nav.contact'), id: 'contact' }
@@ -179,15 +269,15 @@ const Index = () => {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               {navItems.map((item) => (
-                <button
+                <a
                   key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                  href={`#${item.id}`}
                   className={`text-sm font-medium transition-colors hover:text-primary ${
                     activeSection === item.id ? 'text-primary' : 'text-muted-foreground'
                   }`}
                 >
                   {item.name}
-                </button>
+                </a>
               ))}
               <LanguageSelector />
             </div>
@@ -209,13 +299,14 @@ const Index = () => {
           {isMenuOpen && (
             <div className="md:hidden py-4 border-t border-border">
               {navItems.map((item) => (
-                <button
+                <a
                   key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                  href={`#${item.id}`}
+                  onClick={() => setIsMenuOpen(false)}
                   className="block w-full text-left py-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
                 >
                   {item.name}
-                </button>
+                </a>
               ))}
             </div>
           )}
@@ -223,7 +314,7 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="pt-16 min-h-screen flex items-center animate-on-scroll">
+      <section id="home" className="scroll-mt-16 pt-16 min-h-screen flex items-center animate-on-scroll">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -235,13 +326,13 @@ const Index = () => {
                 {t('hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button
-                  onClick={() => scrollToSection('initiatives')}
+                <a
+                  href="#initiatives"
                   className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-colors"
                 >
                   {t('hero.exploreBtn')}
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </button>
+                </a>
                 <a 
                   href="https://docs.google.com/forms/d/e/1FAIpQLSd5Idc1wG2uhHBT11veYVx6JUfrvb_ylc1WC0ZfuXykvm1rtw/viewform"
                   target="_blank"
@@ -302,10 +393,12 @@ const Index = () => {
       </section>
 
       {/* Initiatives Section */}
-      <section id="initiatives" className="py-20 bg-muted/30 animate-on-scroll">
+      <section id="initiatives" className="scroll-mt-16 py-20 bg-muted/30 animate-on-scroll">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{t('initiatives.title')}</h2>
+            <SectionHeading id="initiatives" className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              {t('initiatives.title')}
+            </SectionHeading>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               {t('initiatives.description')}
             </p>
@@ -347,10 +440,12 @@ const Index = () => {
       </section>
 
       {/* People Section */}
-      <section id="people" className="py-20 animate-on-scroll min-h-screen">
+      <section id="people" className="scroll-mt-16 py-20 animate-on-scroll min-h-screen">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{t('people.title')}</h2>
+            <SectionHeading id="people" className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              {t('people.title')}
+            </SectionHeading>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               {t('people.description')}
             </p>
@@ -400,14 +495,141 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Events Section */}
+      <section id="events" className="scroll-mt-16 py-20 bg-muted/30 animate-on-scroll">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
+            <div className="max-w-3xl">
+              <SectionHeading id="events" className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                {t('events.title')}
+              </SectionHeading>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                {t('events.description')}
+              </p>
+            </div>
+
+            <div className="inline-flex rounded-lg border border-border bg-background p-1 self-start lg:self-auto">
+              {(['calendar', 'list', 'cards'] as const).map((layout) => (
+                <button
+                  key={layout}
+                  type="button"
+                  onClick={() => setEventsLayout(layout)}
+                  className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                    eventsLayout === layout
+                      ? 'bg-primary text-white'
+                      : 'text-muted-foreground hover:text-primary'
+                  }`}
+                >
+                  {t(`events.layout.${layout}`)}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="events-widget-surface mb-8">
+            <ote-events
+              feed={eventsFeedUrl}
+              limit="12"
+              layout={eventsLayout}
+              fields="image,when,location,attendance,description,tags,organizer"
+              theme="light"
+              lang={language}
+            />
+          </div>
+
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5 border-t border-border pt-6">
+            <p
+              className="order-2 max-w-2xl text-center text-xs font-light text-muted-foreground/70 lg:order-none lg:text-left [&_a]:text-muted-foreground/70 [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-primary [&_a:hover]:underline"
+              dangerouslySetInnerHTML={{ __html: t('events.poweredBy') }}
+            >
+            </p>
+            <div className="order-1 flex w-full flex-wrap items-center justify-center gap-3 lg:order-none lg:w-auto lg:justify-start">
+              <div
+                ref={icsMenuRef}
+                className="events-subscribe-menu relative inline-flex h-5 items-center leading-none"
+              >
+                <button
+                  type="button"
+                  aria-haspopup="menu"
+                  aria-expanded={isIcsMenuOpen}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    setIsIcsMenuOpen((currentOpen) => !currentOpen);
+                  }}
+                  className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
+                >
+                  <img
+                    src="./images/badge-ics.svg?v=2"
+                    alt="ICS calendar"
+                    className="block h-5 w-auto"
+                  />
+                </button>
+                {isIcsMenuOpen && (
+                  <div className="absolute left-0 top-full z-20 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
+                    <a
+                      href={googleCalendarUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.subscribeGoogle')}
+                    </a>
+                    <a
+                      href={outlookCalendarUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.subscribeOutlook')}
+                    </a>
+                    <a
+                      href={eventsIcsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.downloadIcs')}
+                    </a>
+                  </div>
+                )}
+              </div>
+              <a
+                href={eventsRssUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-full transition-opacity hover:opacity-85"
+              >
+                <img
+                  src="./images/badge-rss.svg"
+                  alt="RSS feed"
+                  className="h-5 w-auto"
+                />
+              </a>
+              <a
+                href={eventsFeedUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-full transition-opacity hover:opacity-85"
+              >
+                <img
+                  src="https://opentechevents.org/badge/ote-feed.svg"
+                  alt="OTE feed"
+                  className="h-5 w-auto"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Communities Section */}
-      <section id="communities" className="py-20 bg-muted/30 animate-on-scroll">
+      <section id="communities" className="scroll-mt-16 py-20 animate-on-scroll">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              <SectionHeading id="communities" className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 {t('communities.title')}
-              </h2>
+              </SectionHeading>
               <p
                 className="text-lg text-muted-foreground mb-6 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: t('communities.description') }}
@@ -439,12 +661,12 @@ const Index = () => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 animate-on-scroll">
+      <section id="faq" className="scroll-mt-16 py-20 animate-on-scroll">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <SectionHeading id="faq" className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               {t('faq.title')}
-            </h2>
+            </SectionHeading>
             <p className="text-lg text-muted-foreground">
               {t('faq.description')}
             </p>
@@ -456,9 +678,10 @@ const Index = () => {
                 <h3 className="text-lg font-semibold text-card-foreground mb-2">
                   {faq.question}
                 </h3>
-                <p className="text-muted-foreground">
-                  <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
-                </p>
+                <div
+                  className="text-muted-foreground"
+                  dangerouslySetInnerHTML={{ __html: faq.answer }}
+                />
               </div>
             ))}
           </div>
@@ -476,11 +699,11 @@ const Index = () => {
      
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 animate-on-scroll faq">
+      <section id="contact" className="scroll-mt-16 py-20 animate-on-scroll faq">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <SectionHeading id="contact" className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             {t('contact.title')}
-          </h2>
+          </SectionHeading>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             {t('contact.description')}
           </p>
@@ -531,13 +754,13 @@ const Index = () => {
               <h3 className="font-semibold text-foreground mb-4">{t('footer.quickLinks')}</h3>
               <div className="space-y-2">
                 {navItems.slice(0, 4).map((item) => (
-                  <button
+                  <a
                     key={item.id}
-                    onClick={() => scrollToSection(item.id)}
+                    href={`#${item.id}`}
                     className="block text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {item.name}
-                  </button>
+                  </a>
                 ))}
               </div>
             </div>

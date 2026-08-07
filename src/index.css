@@ -189,3 +189,14 @@ p a{
   margin-left: 1rem;
   margin-bottom: .5rem;
 }
+
+.events-widget-surface {
+  --ote-surface: hsl(var(--card));
+  --ote-border: hsl(var(--border));
+  --ote-text: hsl(var(--foreground));
+  --ote-muted: hsl(var(--muted-foreground));
+  --ote-accent: hsl(var(--primary));
+  --ote-accent-hover: hsl(var(--primary) / 0.85);
+  --ote-accent-soft: hsl(var(--primary) / 0.1);
+  --ote-radius: 8px;
+}
