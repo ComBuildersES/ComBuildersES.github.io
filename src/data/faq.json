@@ -29,8 +29,8 @@
                 "es": "Si no dinamizo una comunidad tech, ¿puedo participar?"
             },
             "answer": {
-                "en": "Of course. Each repository has a <a href=\"https://github.com/ComBuildersES/communities-directory/blob/main/CONTRIBUTING.md\">CONTRIBUTING.md file</a> explaining the different ways to contribute to the initiatives.",
-                "es": "Por supuesto. En cada repositorio hay un <a href=\"https://github.com/ComBuildersES/communities-directory/blob/main/CONTRIBUTING.md\">fichero CONTRIBUTING.md</a> donde se explican las diferentes formas de contribuir a las iniciativas."
+                "en": "Of course. A good place to start is the <a href=\"https://github.com/ComBuildersES/.github/blob/main/COMMUNITY_GUIDE.md\">Community Builders community guide</a>, which explains how to participate and contribute to the collective.",
+                "es": "Por supuesto. Un buen lugar para empezar es la <a href=\"https://github.com/ComBuildersES/.github/blob/main/COMMUNITY_GUIDE.md\">guía de la comunidad de Community Builders</a>, donde se explica cómo participar y contribuir al colectivo."
             }
         },
         {

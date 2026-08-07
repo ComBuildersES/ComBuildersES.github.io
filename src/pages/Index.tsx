@@ -16,6 +16,8 @@ const Index = () => {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [members, setMembers] = useState<ReturnType<typeof processMemberData>[]>([]);
   const [showAllMembers, setShowAllMembers] = useState(false);
+  const [memberWindowStart, setMemberWindowStart] = useState(0);
+  const [isMemberGridFading, setIsMemberGridFading] = useState(false);
   const { t, language } = useLanguage();
 
   // Fetch members data
@@ -73,6 +75,30 @@ const Index = () => {
     return () => clearInterval(interval);
   }, [carouselApi, isAutoPlaying]);
 
+  useEffect(() => {
+    if (showAllMembers || members.length <= 8) {
+      setIsMemberGridFading(false);
+      return;
+    }
+
+    let fadeTimeout: number | undefined;
+    const interval = window.setInterval(() => {
+      setIsMemberGridFading(true);
+
+      fadeTimeout = window.setTimeout(() => {
+        setMemberWindowStart((currentStart) => (currentStart + 8) % members.length);
+        setIsMemberGridFading(false);
+      }, 300);
+    }, 6000);
+
+    return () => {
+      window.clearInterval(interval);
+      if (fadeTimeout) {
+        window.clearTimeout(fadeTimeout);
+      }
+    };
+  }, [members.length, showAllMembers]);
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -86,10 +112,25 @@ const Index = () => {
     carouselApi?.scrollTo(index);
   };
 
-  const heroImages = [
-    "./images/hero-1.webp",
-    "./images/hero-2.webp",
-    "./images/hero-3.webp"
+  const heroSlides = [
+    {
+      image: "./images/hero-1.webp",
+      title: t('hero.slide1.title'),
+      description: t('hero.slide1.description'),
+      alt: t('hero.slide1.alt')
+    },
+    {
+      image: "./images/hero-2.webp",
+      title: t('hero.slide2.title'),
+      description: t('hero.slide2.description'),
+      alt: t('hero.slide2.alt')
+    },
+    {
+      image: "./images/hero-3.webp",
+      title: t('hero.slide3.title'),
+      description: t('hero.slide3.description'),
+      alt: t('hero.slide3.alt')
+    }
   ];
 
   const processedInitiatives = initiativesData.initiatives.map(initiative => ({
@@ -109,12 +150,15 @@ const Index = () => {
     { name: t('nav.initiatives'), id: 'initiatives' },
     { name: t('nav.people'), id: 'people' },
     { name: t('nav.communities'), id: 'communities' },
-    { name: t('nav.newsletters'), id: 'newsletters' },
     { name: t('nav.faq'), id: 'faq' },
     { name: t('nav.contact'), id: 'contact' }
   ];
 
-  const displayedMembers = showAllMembers ? members : members.slice(0, 8);
+  const visibleMemberCount = Math.min(8, members.length);
+  const rotatingMembers = Array.from({ length: visibleMemberCount }, (_, index) => {
+    return members[(memberWindowStart + index) % members.length];
+  });
+  const displayedMembers = showAllMembers ? members : rotatingMembers;
   const logoClasses = "rounded-full ring-1 ring-border/70 shadow-sm";
 
   return (
@@ -211,16 +255,24 @@ const Index = () => {
             <div className="relative">
               <Carousel className="w-full max-w-lg mx-auto" setApi={setCarouselApi}>
                 <CarouselContent>
-                  {heroImages.map((image, index) => (
+                  {heroSlides.map((slide, index) => (
                     <CarouselItem key={index}>
-                      <div className="relative">
+                      <figure className="relative overflow-hidden rounded-2xl shadow-2xl">
                         <img
-                          src={image}
-                          alt={`Tech community collaboration ${index + 1}`}
-                          className="rounded-2xl shadow-2xl w-full h-auto"
+                          src={slide.image}
+                          alt={slide.alt}
+                          className="w-full h-auto"
                         />
-                        <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/20 to-transparent"></div>
-                      </div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+                        <figcaption className="absolute inset-x-0 bottom-0 p-5 text-left text-white">
+                          <h2 className="text-base md:text-lg font-semibold mb-1">
+                            {slide.title}
+                          </h2>
+                          <p className="text-sm leading-relaxed text-white/90">
+                            {slide.description}
+                          </p>
+                        </figcaption>
+                      </figure>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
@@ -228,7 +280,7 @@ const Index = () => {
               
               {/* Bullet indicators */}
               <div className="flex justify-center mt-4 space-x-2">
-                {heroImages.map((_, index) => (
+                {heroSlides.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => handleCarouselInteraction(index)}
@@ -304,10 +356,14 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            className={`grid sm:grid-cols-2 lg:grid-cols-4 gap-6 transition-opacity duration-300 ${
+              isMemberGridFading ? 'opacity-0' : 'opacity-100'
+            }`}
+          >
             {displayedMembers.map((member, index) => (
               <div
-                key={index}
+                key={showAllMembers ? member.id : `${member.id}-${memberWindowStart}`}
                 className="bg-card rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <a
@@ -352,8 +408,10 @@ const Index = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 {t('communities.title')}
               </h2>
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                {t('communities.description')}
+              <p
+                className="text-lg text-muted-foreground mb-6 leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: t('communities.description') }}
+              >
               </p>
               <div className="flex items-center space-x-4 text-muted-foreground">
                 <div className="flex items-center">
@@ -376,28 +434,6 @@ const Index = () => {
               </a>
               <div className="absolute rounded-2xl bg-gradient-to-t from-primary/20 to-transparent"></div>
             </div>
-          </div>
-        </div>
-      </section>
-
-       {/* Newsletters Section */}
-       <section id="newsletters" className="py-20 bg-muted/30 animate-on-scroll">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            {t('newsletters.title')}
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            {t('newsletters.description')}
-          </p>
-          <div className="max-w-md mx-auto flex gap-4 inline-flex items-center">
-            <a 
-              href="https://github.com/orgs/ComBuildersES/discussions/categories/novedades"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-colors"
-            >
-              {t('newsletters.subscribeBtn')}
-            </a>
           </div>
         </div>
       </section>

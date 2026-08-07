@@ -1,19 +1,6 @@
 {
   "initiatives": [
     {
-      "id": "opentechevents",
-      "title": {
-        "en": "📅 OpenTechEvents",
-        "es": "📅 OpenTechEvents"
-      },
-      "description": {
-        "en": "Open specification promoted from Community Builders to publish tech events once and make them discoverable by directories, calendars, feeds and tools.",
-        "es": "<strong>Objetivo</strong>: Impulsar una especificación abierta para publicar eventos tech una vez y que directorios, calendarios, feeds y herramientas puedan descubrirlos automáticamente."
-      },
-      "image": "./images/opentechevents.png",
-      "link": "https://opentechevents.org/"
-    },
-    {
       "id": "meeting-point",
       "title": {
         "en": "🗣️ Meeting point",
@@ -25,6 +12,19 @@
       },
       "image": "./images/meeting-point.webp",
       "link": "https://github.com/ComBuildersES/punto-de-encuentro"
+    },
+    {
+      "id": "opentechevents",
+      "title": {
+        "en": "📅 OpenTechEvents",
+        "es": "📅 OpenTechEvents"
+      },
+      "description": {
+        "en": "Open specification promoted from Community Builders to publish tech events once and make them discoverable by directories, calendars, feeds and tools.",
+        "es": "<strong>Objetivo</strong>: Impulsar una especificación abierta para publicar eventos tech una vez y que directorios, calendarios, feeds y herramientas puedan descubrirlos automáticamente."
+      },
+      "image": "./images/opentechevents.png",
+      "link": "https://opentechevents.org/"
     },
     {
       "id": "communities-directory",

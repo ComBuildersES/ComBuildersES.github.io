@@ -32,9 +32,18 @@ const translations = {
     // Hero Section
     'hero.title': 'We Energize',
     'hero.titleHighlight': 'Tech Communities',
-    'hero.description': 'We are a collective that brings together people who energize Spanish-speaking tech communities with the aim of being a reference place where collaboration and exchange of experiences are facilitated.',
+    'hero.description': 'We are a collective of people who energize Spanish-speaking tech communities. We ask for and offer practical help, exchange lessons learned, and collaborate on initiatives that address shared community needs.',
     'hero.exploreBtn': 'Explore initiatives',
     'hero.joinBtn': 'Request to join',
+    'hero.slide1.title': 'Online community meetups',
+    'hero.slide1.description': 'Recurring sessions to network and collaborate on projects that address shared community needs.',
+    'hero.slide1.alt': 'Online meeting of community builders collaborating remotely',
+    'hero.slide2.title': 'We meet at conferences',
+    'hero.slide2.description': 'We are happy to support and collaborate with conferences, for example by organizing open spaces for community leaders.',
+    'hero.slide2.alt': 'Community leaders participating in an open space session at a conference',
+    'hero.slide3.title': 'Informal gatherings',
+    'hero.slide3.description': 'Relaxed meetups to spend time together, enjoy ourselves and get to know each other better.',
+    'hero.slide3.alt': 'Informal gathering with people from tech communities',
     
     // Initiatives Section
     'initiatives.title': 'Our initiatives',
@@ -49,7 +58,7 @@ const translations = {
     
     // Communities Section
     'communities.title': 'Spanish Communities',
-    'communities.description': 'We have created a web directory that brings together 500+ tech communities in Spain and other Spanish-speaking countries so that anyone interested can easily discover the available options and find those that match their interests.',
+    'communities.description': 'We have created a web directory that brings together 400+ tech communities in Spain and other Spanish-speaking countries so that anyone interested can easily discover the available options. We are also working on improving event visibility through <a href="https://opentechevents.org/" target="_blank" rel="noopener noreferrer">OpenTechEvents</a>.',
     'communities.cities': '300+ In-person',
     'communities.members': '50+ Hybrid and online',
     
@@ -88,9 +97,18 @@ const translations = {
     // Hero Section
     'hero.title': 'Dinamizamos',
     'hero.titleHighlight': 'Comunidades Tech',
-    'hero.description': 'Somos un colectivo que reúne a personas que dinamizan comunidades tech de habla hispana con el objetivo de ser un lugar de referencia donde se facilite la colaboración y el intercambio de experiencias.',
+    'hero.description': 'Somos un colectivo de personas que dinamizan comunidades tech de habla hispana. Nos pedimos y ofrecemos ayuda, compartimos aprendizajes y colaboramos en iniciativas que responden a necesidades comunes.',
     'hero.exploreBtn': 'Explorar iniciativas',
     'hero.joinBtn': 'Solicitar unirse',
+    'hero.slide1.title': 'Encuentros online periódicos',
+    'hero.slide1.description': 'Sesiones para hacer networking y colaborar en proyectos que atajan necesidades compartidas.',
+    'hero.slide1.alt': 'Encuentro online de personas que dinamizan comunidades colaborando en remoto',
+    'hero.slide2.title': 'Nos juntamos en conferencias',
+    'hero.slide2.description': 'Estamos deseando apoyarlas y colaborar, por ejemplo organizando open spaces para community leaders.',
+    'hero.slide2.alt': 'Community leaders participando en un open space durante una conferencia',
+    'hero.slide3.title': 'Encuentros desenfadados',
+    'hero.slide3.description': 'Quedadas para juntarnos, pasarlo bien y conocernos mejor entre personas de comunidades tech.',
+    'hero.slide3.alt': 'Encuentro desenfadado con personas de comunidades tech',
     
     // Initiatives Section
     'initiatives.title': 'Nuestras iniciativas',
@@ -105,7 +123,7 @@ const translations = {
     
     // Communities Section
     'communities.title': 'Comunidades en Español',
-    'communities.description': 'Hemos creado un directorio web que reúne cientos de comunidades tech, pensado para que cualquier persona en España pueda descubrir fácilmente las opciones disponibles y encontrar aquellas que mejor se ajusten a sus intereses.',
+    'communities.description': 'Hemos creado un directorio web que reúne más de 400 comunidades tech, pensado para que cualquier persona pueda descubrir fácilmente las opciones disponibles. También estamos trabajando en mejorar la visibilidad de los eventos a través de <a href="https://opentechevents.org/" target="_blank" rel="noopener noreferrer">OpenTechEvents</a>.',
     'communities.cities': '300+ Presenciales',
     'communities.members': '50+ Híbridas y online',
     
