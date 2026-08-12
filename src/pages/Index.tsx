@@ -28,6 +28,10 @@ const Index = () => {
   const eventsRssUrl = "https://combuilderses.github.io/events/feed.xml";
   const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(eventsIcsUrl)}`;
   const outlookCalendarUrl = `https://outlook.live.com/calendar/0/addcalendar?url=${encodeURIComponent(eventsIcsUrl)}&name=${encodeURIComponent("Community Builders Events")}`;
+  const feedlyUrl = `https://www.feedly.com/home#subscription/feed/${eventsRssUrl}`;
+  const feedProtocolUrl = eventsRssUrl.replace(/^https?:\/\//, 'feed://');
+  const oteReaderUrl = `https://reader.opentechevents.org/?subscribe=${encodeURIComponent(eventsFeedUrl)}`;
+  const otePreviewUrl = `https://tools.opentechevents.org/preview/?feed=${encodeURIComponent(eventsFeedUrl)}`;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
@@ -39,8 +43,10 @@ const Index = () => {
   const [memberWindowStart, setMemberWindowStart] = useState(0);
   const [isMemberGridFading, setIsMemberGridFading] = useState(false);
   const [eventsLayout, setEventsLayout] = useState<'calendar' | 'list' | 'cards'>('calendar');
-  const [isIcsMenuOpen, setIsIcsMenuOpen] = useState(false);
+  const [openSubscribeMenu, setOpenSubscribeMenu] = useState<'ics' | 'rss' | 'ote' | null>(null);
   const icsMenuRef = useRef<HTMLDivElement>(null);
+  const rssMenuRef = useRef<HTMLDivElement>(null);
+  const oteMenuRef = useRef<HTMLDivElement>(null);
   const { t, language } = useLanguage();
 
   // Fetch members data
@@ -171,30 +177,33 @@ const Index = () => {
   }, [members.length, showAllMembers]);
 
   useEffect(() => {
-    if (!isIcsMenuOpen) {
+    if (!openSubscribeMenu) {
       return;
     }
 
-    const closeIcsMenu = (event: PointerEvent) => {
-      if (!icsMenuRef.current?.contains(event.target as Node)) {
-        setIsIcsMenuOpen(false);
+    const subscribeMenuRefs = { ics: icsMenuRef, rss: rssMenuRef, ote: oteMenuRef };
+
+    const closeSubscribeMenu = (event: PointerEvent) => {
+      const activeMenuRef = subscribeMenuRefs[openSubscribeMenu];
+      if (!activeMenuRef.current?.contains(event.target as Node)) {
+        setOpenSubscribeMenu(null);
       }
     };
 
-    const closeIcsMenuWithKeyboard = (event: KeyboardEvent) => {
+    const closeSubscribeMenuWithKeyboard = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
-        setIsIcsMenuOpen(false);
+        setOpenSubscribeMenu(null);
       }
     };
 
-    document.addEventListener('pointerdown', closeIcsMenu);
-    document.addEventListener('keydown', closeIcsMenuWithKeyboard);
+    document.addEventListener('pointerdown', closeSubscribeMenu);
+    document.addEventListener('keydown', closeSubscribeMenuWithKeyboard);
 
     return () => {
-      document.removeEventListener('pointerdown', closeIcsMenu);
-      document.removeEventListener('keydown', closeIcsMenuWithKeyboard);
+      document.removeEventListener('pointerdown', closeSubscribeMenu);
+      document.removeEventListener('keydown', closeSubscribeMenuWithKeyboard);
     };
-  }, [isIcsMenuOpen]);
+  }, [openSubscribeMenu]);
 
   const handleCarouselInteraction = (index: number) => {
     setIsAutoPlaying(false);
@@ -552,10 +561,10 @@ const Index = () => {
                 <button
                   type="button"
                   aria-haspopup="menu"
-                  aria-expanded={isIcsMenuOpen}
+                  aria-expanded={openSubscribeMenu === 'ics'}
                   onClick={(event) => {
                     event.stopPropagation();
-                    setIsIcsMenuOpen((currentOpen) => !currentOpen);
+                    setOpenSubscribeMenu((current) => (current === 'ics' ? null : 'ics'));
                   }}
                   className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
                 >
@@ -565,7 +574,7 @@ const Index = () => {
                     className="block h-5 w-auto"
                   />
                 </button>
-                {isIcsMenuOpen && (
+                {openSubscribeMenu === 'ics' && (
                   <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
                     <a
                       href={googleCalendarUrl}
@@ -594,30 +603,102 @@ const Index = () => {
                   </div>
                 )}
               </div>
-              <a
-                href={eventsRssUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex rounded-full transition-opacity hover:opacity-85"
+              <div
+                ref={rssMenuRef}
+                className="events-subscribe-menu relative inline-flex h-5 items-center leading-none"
               >
-                <img
-                  src="./images/badge-rss.svg"
-                  alt="RSS feed"
-                  className="h-5 w-auto"
-                />
-              </a>
-              <a
-                href={eventsFeedUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex rounded-full transition-opacity hover:opacity-85"
+                <button
+                  type="button"
+                  aria-haspopup="menu"
+                  aria-expanded={openSubscribeMenu === 'rss'}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    setOpenSubscribeMenu((current) => (current === 'rss' ? null : 'rss'));
+                  }}
+                  className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
+                >
+                  <img
+                    src="./images/badge-rss.svg"
+                    alt="RSS feed"
+                    className="block h-5 w-auto"
+                  />
+                </button>
+                {openSubscribeMenu === 'rss' && (
+                  <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
+                    <a
+                      href={feedlyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.subscribeFeedly')}
+                    </a>
+                    <a
+                      href={feedProtocolUrl}
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.subscribeFeedReader')}
+                    </a>
+                    <a
+                      href={eventsRssUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.downloadRss')}
+                    </a>
+                  </div>
+                )}
+              </div>
+              <div
+                ref={oteMenuRef}
+                className="events-subscribe-menu relative inline-flex h-5 items-center leading-none"
               >
-                <img
-                  src="https://opentechevents.org/badge/ote-feed.svg"
-                  alt="OTE feed"
-                  className="h-5 w-auto"
-                />
-              </a>
+                <button
+                  type="button"
+                  aria-haspopup="menu"
+                  aria-expanded={openSubscribeMenu === 'ote'}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    setOpenSubscribeMenu((current) => (current === 'ote' ? null : 'ote'));
+                  }}
+                  className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
+                >
+                  <img
+                    src="https://opentechevents.org/badge/ote-feed.svg"
+                    alt="OTE feed"
+                    className="block h-5 w-auto"
+                  />
+                </button>
+                {openSubscribeMenu === 'ote' && (
+                  <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
+                    <a
+                      href={oteReaderUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.subscribeOteReader')}
+                    </a>
+                    <a
+                      href={otePreviewUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.previewOte')}
+                    </a>
+                    <a
+                      href={eventsFeedUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {t('events.downloadJson')}
+                    </a>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
