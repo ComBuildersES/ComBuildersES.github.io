@@ -13,6 +13,7 @@ declare global {
         theme?: "auto" | "light" | "dark";
         lang?: "auto" | "en" | "es";
         "show-past"?: "true" | "false";
+        "group-events"?: "series" | "multipart" | "series,multipart";
       };
     }
   }

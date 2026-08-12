@@ -544,6 +544,7 @@ const Index = () => {
               fields="image,when,location,attendance,description,tags,organizer"
               theme="light"
               lang={language}
+              group-events="series,multipart"
             />
           </div>
 
