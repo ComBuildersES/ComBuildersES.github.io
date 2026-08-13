@@ -23,9 +23,9 @@ const SectionHeading = ({ id, children, className = '' }: { id: string; children
 );
 
 const Index = () => {
-  const eventsFeedUrl = "https://combuilderses.github.io/events/feed.json";
-  const eventsIcsUrl = "https://combuilderses.github.io/events/feed.ics";
-  const eventsRssUrl = "https://combuilderses.github.io/events/feed.xml";
+  const eventsFeedUrl = "https://communitybuilders.dev/events/feed.json";
+  const eventsIcsUrl = "https://communitybuilders.dev/events/feed.ics";
+  const eventsRssUrl = "https://communitybuilders.dev/events/feed.xml";
   const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(eventsIcsUrl)}`;
   const outlookCalendarUrl = `https://outlook.live.com/calendar/0/addcalendar?url=${encodeURIComponent(eventsIcsUrl)}&name=${encodeURIComponent("Community Builders Events")}`;
   const feedlyUrl = `https://www.feedly.com/home#subscription/feed/${eventsRssUrl}`;
@@ -730,7 +730,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-            <a href="https://combuilderses.github.io/communities-directory/" target="_blank" rel="noopener noreferrer">
+            <a href="https://directory.communitybuilders.dev/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="./images/communities-directory.webp"
                   alt="Tech communities map"
