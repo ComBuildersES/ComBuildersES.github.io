@@ -15,6 +15,16 @@ declare global {
         "show-past"?: "true" | "false";
         "group-events"?: "series" | "multipart" | "series,multipart";
       };
+      "ote-subscribe": DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement> & {
+        "feed-ics"?: string;
+        "feed-rss"?: string;
+        "feed-json"?: string;
+        name?: string;
+        show?: string;
+        layout?: "menu" | "badges";
+        theme?: "auto" | "light" | "dark";
+        lang?: "auto" | "en" | "es";
+      };
     }
   }
 }

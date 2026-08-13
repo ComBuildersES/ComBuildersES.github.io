@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { ArrowRight, Users, MapPin, Github, Youtube, Linkedin, MessageSquare, Mail, Menu, X, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSelector from '../components/LanguageSelector';
@@ -26,12 +26,6 @@ const Index = () => {
   const eventsFeedUrl = "https://communitybuilders.dev/events/feed.json";
   const eventsIcsUrl = "https://communitybuilders.dev/events/feed.ics";
   const eventsRssUrl = "https://communitybuilders.dev/events/feed.xml";
-  const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(eventsIcsUrl)}`;
-  const outlookCalendarUrl = `https://outlook.live.com/calendar/0/addcalendar?url=${encodeURIComponent(eventsIcsUrl)}&name=${encodeURIComponent("Community Builders Events")}`;
-  const feedlyUrl = `https://www.feedly.com/home#subscription/feed/${eventsRssUrl}`;
-  const feedProtocolUrl = eventsRssUrl.replace(/^https?:\/\//, 'feed://');
-  const oteReaderUrl = `https://reader.opentechevents.org/?subscribe=${encodeURIComponent(eventsFeedUrl)}`;
-  const otePreviewUrl = `https://tools.opentechevents.org/preview/?feed=${encodeURIComponent(eventsFeedUrl)}`;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
@@ -43,10 +37,6 @@ const Index = () => {
   const [memberWindowStart, setMemberWindowStart] = useState(0);
   const [isMemberGridFading, setIsMemberGridFading] = useState(false);
   const [eventsLayout, setEventsLayout] = useState<'calendar' | 'list' | 'cards'>('calendar');
-  const [openSubscribeMenu, setOpenSubscribeMenu] = useState<'ics' | 'rss' | 'ote' | null>(null);
-  const icsMenuRef = useRef<HTMLDivElement>(null);
-  const rssMenuRef = useRef<HTMLDivElement>(null);
-  const oteMenuRef = useRef<HTMLDivElement>(null);
   const { t, language } = useLanguage();
 
   // Fetch members data
@@ -60,17 +50,19 @@ const Index = () => {
   }, []);
 
   useEffect(() => {
-    const scriptId = "ote-events-widget";
+    const embedScripts = [
+      { id: "ote-events-widget", src: "https://tools.opentechevents.org/embed/ote-events.js" },
+      { id: "ote-subscribe-widget", src: "https://tools.opentechevents.org/embed/ote-subscribe.js" },
+    ];
 
-    if (document.getElementById(scriptId)) {
-      return;
+    for (const { id, src } of embedScripts) {
+      if (document.getElementById(id)) continue;
+      const script = document.createElement("script");
+      script.id = id;
+      script.type = "module";
+      script.src = src;
+      document.head.append(script);
     }
-
-    const script = document.createElement("script");
-    script.id = scriptId;
-    script.type = "module";
-    script.src = "https://tools.opentechevents.org/embed/ote-events.js";
-    document.head.append(script);
   }, []);
 
   // Intersection Observer for animations
@@ -176,34 +168,6 @@ const Index = () => {
     };
   }, [members.length, showAllMembers]);
 
-  useEffect(() => {
-    if (!openSubscribeMenu) {
-      return;
-    }
-
-    const subscribeMenuRefs = { ics: icsMenuRef, rss: rssMenuRef, ote: oteMenuRef };
-
-    const closeSubscribeMenu = (event: PointerEvent) => {
-      const activeMenuRef = subscribeMenuRefs[openSubscribeMenu];
-      if (!activeMenuRef.current?.contains(event.target as Node)) {
-        setOpenSubscribeMenu(null);
-      }
-    };
-
-    const closeSubscribeMenuWithKeyboard = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setOpenSubscribeMenu(null);
-      }
-    };
-
-    document.addEventListener('pointerdown', closeSubscribeMenu);
-    document.addEventListener('keydown', closeSubscribeMenuWithKeyboard);
-
-    return () => {
-      document.removeEventListener('pointerdown', closeSubscribeMenu);
-      document.removeEventListener('keydown', closeSubscribeMenuWithKeyboard);
-    };
-  }, [openSubscribeMenu]);
 
   const handleCarouselInteraction = (index: number) => {
     setIsAutoPlaying(false);
@@ -554,152 +518,15 @@ const Index = () => {
               dangerouslySetInnerHTML={{ __html: t('events.poweredBy') }}
             >
             </p>
-            <div className="order-1 flex w-full flex-wrap items-center justify-center gap-3 lg:order-none lg:w-auto lg:justify-start">
-              <div
-                ref={icsMenuRef}
-                className="events-subscribe-menu relative inline-flex h-5 items-center leading-none"
-              >
-                <button
-                  type="button"
-                  aria-haspopup="menu"
-                  aria-expanded={openSubscribeMenu === 'ics'}
-                  onClick={(event) => {
-                    event.stopPropagation();
-                    setOpenSubscribeMenu((current) => (current === 'ics' ? null : 'ics'));
-                  }}
-                  className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
-                >
-                  <img
-                    src="./images/badge-ics.svg?v=2"
-                    alt="ICS calendar"
-                    className="block h-5 w-auto"
-                  />
-                </button>
-                {openSubscribeMenu === 'ics' && (
-                  <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
-                    <a
-                      href={googleCalendarUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.subscribeGoogle')}
-                    </a>
-                    <a
-                      href={outlookCalendarUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.subscribeOutlook')}
-                    </a>
-                    <a
-                      href={eventsIcsUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.downloadIcs')}
-                    </a>
-                  </div>
-                )}
-              </div>
-              <div
-                ref={rssMenuRef}
-                className="events-subscribe-menu relative inline-flex h-5 items-center leading-none"
-              >
-                <button
-                  type="button"
-                  aria-haspopup="menu"
-                  aria-expanded={openSubscribeMenu === 'rss'}
-                  onClick={(event) => {
-                    event.stopPropagation();
-                    setOpenSubscribeMenu((current) => (current === 'rss' ? null : 'rss'));
-                  }}
-                  className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
-                >
-                  <img
-                    src="./images/badge-rss.svg"
-                    alt="RSS feed"
-                    className="block h-5 w-auto"
-                  />
-                </button>
-                {openSubscribeMenu === 'rss' && (
-                  <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
-                    <a
-                      href={feedlyUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.subscribeFeedly')}
-                    </a>
-                    <a
-                      href={feedProtocolUrl}
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.subscribeFeedReader')}
-                    </a>
-                    <a
-                      href={eventsRssUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.downloadRss')}
-                    </a>
-                  </div>
-                )}
-              </div>
-              <div
-                ref={oteMenuRef}
-                className="events-subscribe-menu relative inline-flex h-5 items-center leading-none"
-              >
-                <button
-                  type="button"
-                  aria-haspopup="menu"
-                  aria-expanded={openSubscribeMenu === 'ote'}
-                  onClick={(event) => {
-                    event.stopPropagation();
-                    setOpenSubscribeMenu((current) => (current === 'ote' ? null : 'ote'));
-                  }}
-                  className="inline-flex h-5 cursor-pointer list-none items-center rounded-full leading-none transition-opacity hover:opacity-85"
-                >
-                  <img
-                    src="https://opentechevents.org/badge/ote-feed.svg"
-                    alt="OTE feed"
-                    className="block h-5 w-auto"
-                  />
-                </button>
-                {openSubscribeMenu === 'ote' && (
-                  <div className="absolute left-0 top-full z-50 mt-5 w-[min(14rem,calc(100vw-2rem))] rounded-lg border border-border bg-background p-2 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
-                    <a
-                      href={oteReaderUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.subscribeOteReader')}
-                    </a>
-                    <a
-                      href={otePreviewUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.previewOte')}
-                    </a>
-                    <a
-                      href={eventsFeedUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    >
-                      {t('events.downloadJson')}
-                    </a>
-                  </div>
-                )}
-              </div>
+            <div className="order-1 flex w-full items-center justify-center lg:order-none lg:w-auto lg:justify-start">
+              <ote-subscribe
+                feed-ics={eventsIcsUrl}
+                feed-rss={eventsRssUrl}
+                feed-json={eventsFeedUrl}
+                layout="badges"
+                theme="light"
+                lang={language}
+              />
             </div>
           </div>
         </div>

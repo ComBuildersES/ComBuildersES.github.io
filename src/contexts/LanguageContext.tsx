@@ -85,16 +85,7 @@ const translations = {
     'events.layout.list': 'List',
     'events.layout.cards': 'Cards',
     'events.poweredBy': 'Subscriptions and embeddable <a href="https://tools.opentechevents.org/embed" target="_blank" rel="noopener noreferrer">widget</a> available thanks to <a href="https://github.com/OpenTechEvents/opentechevents-spec" target="_blank" rel="noopener noreferrer">OpenTechEvents</a>.',
-    'events.subscribeGoogle': 'Subscribe with Google Calendar',
-    'events.subscribeOutlook': 'Subscribe with Outlook',
-    'events.downloadIcs': 'Open/download ICS',
-    'events.subscribeFeedly': 'Subscribe with Feedly',
-    'events.subscribeFeedReader': 'Subscribe with feed reader (NetNewsWire, Reeder…)',
-    'events.downloadRss': 'Open/download RSS',
-    'events.subscribeOteReader': 'Subscribe with OTE Reader',
-    'events.previewOte': 'Preview in OTE Tools',
-    'events.downloadJson': 'Open/download JSON',
-    
+
     // Footer
     'footer.description': 'We are a collective that brings together people who energize Spanish-speaking tech communities with the aim of being a reference place where collaboration and exchange of experiences are facilitated.',
     'footer.quickLinks': 'Quick Links',
@@ -168,16 +159,7 @@ const translations = {
     'events.layout.list': 'Lista',
     'events.layout.cards': 'Tarjetas',
     'events.poweredBy': 'Suscripciones y <a href="https://tools.opentechevents.org/embed" target="_blank" rel="noopener noreferrer">widget</a> embebible disponibles gracias a <a href="https://github.com/OpenTechEvents/opentechevents-spec" target="_blank" rel="noopener noreferrer">OpenTechEvents</a>.',
-    'events.subscribeGoogle': 'Suscribirse con Google Calendar',
-    'events.subscribeOutlook': 'Suscribirse con Outlook',
-    'events.downloadIcs': 'Abrir/descargar ICS',
-    'events.subscribeFeedly': 'Suscribirse con Feedly',
-    'events.subscribeFeedReader': 'Suscribirse con lector de feeds (NetNewsWire, Reeder…)',
-    'events.downloadRss': 'Abrir/descargar RSS',
-    'events.subscribeOteReader': 'Suscribirse con OTE Reader',
-    'events.previewOte': 'Vista previa en OTE Tools',
-    'events.downloadJson': 'Abrir/descargar JSON',
-    
+
     // Footer
     'footer.description': 'Somos un colectivo que reúne a personas que dinamizan comunidades tech de habla hispana con el objetivo de ser un lugar de referencia donde se facilite la colaboración y el intercambio de experiencias.',
     'footer.quickLinks': 'Enlaces Rápidos',
